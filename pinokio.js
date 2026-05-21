@@ -2,13 +2,14 @@ const path = require('path')
 
 module.exports = {
   version: "7.0",
-  title: "Stable Audio 3 Small",
-  description: "Low-memory launcher for Stable Audio 3 Small Music and Small SFX using public cocktailpeanut Hugging Face mirrors. Medium is intentionally not included. https://github.com/Stability-AI/stable-audio-3",
+  title: "Stable Audio 3",
+  description: "Launcher for Stable Audio 3 Small Music, Small SFX, and NVIDIA Medium using public cocktailpeanut Hugging Face mirrors. https://github.com/Stability-AI/stable-audio-3",
   icon: "icon.png",
   menu: async (kernel) => {
     let installing = await kernel.running(__dirname, "install.js")
     let installed = await kernel.exists(__dirname, "app", "env")
     let running = await kernel.running(__dirname, "start.js")
+    let supportsMedium = kernel.gpu === "nvidia" && (kernel.platform === "win32" || kernel.platform === "linux")
 
     if (installing) {
       return [{
@@ -48,10 +49,9 @@ module.exports = {
           }]
         }
       } else {
-        return [{
-          default: true,
+        let menu = [{
           icon: "fa-solid fa-music",
-          text: "Start Music",
+          text: "Start Small Music",
           href: "start.js",
           params: {
             model: "small-music",
@@ -60,14 +60,29 @@ module.exports = {
           }
         }, {
           icon: "fa-solid fa-wave-square",
-          text: "Start SFX",
+          text: "Start Small SFX",
           href: "start.js",
           params: {
             model: "small-sfx",
             title: "Stable Audio 3 Small SFX",
             prompt: "cinematic whoosh impact"
           }
-        }, {
+        }]
+
+        if (supportsMedium) {
+          menu.push({
+            icon: "fa-solid fa-compact-disc",
+            text: "Start Medium",
+            href: "start.js",
+            params: {
+              model: "medium",
+              title: "Stable Audio 3 Medium",
+              prompt: "cinematic electronic track, melodic, 124 BPM"
+            }
+          })
+        }
+
+        menu.push({
           icon: "fa-solid fa-plug",
           text: "Update",
           href: "update.js"
@@ -79,7 +94,9 @@ module.exports = {
           icon: "fa-regular fa-circle-xmark",
           text: "Reset",
           href: "reset.js"
-        }]
+        })
+
+        return menu
       }
     } else {
       return [{

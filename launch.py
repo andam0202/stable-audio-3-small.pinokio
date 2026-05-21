@@ -14,6 +14,9 @@ MIRROR_MODELS = {
     "small-sfx": os.environ.get(
         "SA3_SMALL_SFX_REPO", "cocktailpeanut/stable-audio-3-small-sfx"
     ),
+    "medium": os.environ.get(
+        "SA3_MEDIUM_REPO", "cocktailpeanut/stable-audio-3-medium"
+    ),
 }
 
 
