@@ -16,8 +16,8 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 APP_DIR="${SCRIPT_DIR}/app"
 VENV_PYTHON="${APP_DIR}/.venv-gen/bin/python"
-PROMPTS_FILE="${SCRIPT_DIR}/data/input/orusuban1.json"
-OUTPUT_DIR="${SCRIPT_DIR}/data/orusuban1/output"
+PROMPTS_FILE="${SCRIPT_DIR}/data/input/stella_lace.json"
+OUTPUT_DIR="${SCRIPT_DIR}/data/output/stella_lace"
 API_BASE="http://127.0.0.1:7860"
 
 # ── 引数パース ────────────────────────────────────

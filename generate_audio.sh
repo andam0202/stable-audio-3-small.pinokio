@@ -9,7 +9,7 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-OUT_DIR="${SCRIPT_DIR}/data/orusuban1/output"
+OUT_DIR="${SCRIPT_DIR}/data/output/orusuban1"
 SE_DIR="${OUT_DIR}/sfx"
 BGM_DIR="${OUT_DIR}/bgm"
 
