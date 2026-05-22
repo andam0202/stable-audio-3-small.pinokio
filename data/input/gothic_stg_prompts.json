@@ -1,0 +1,82 @@
+[
+  {
+    "id": "title",
+    "prompt": "death_smiles, arcade shooting game title screen, gothic, pipe organ, synth brass, driving beat, powerful, intense, electronic rock, dark fantasy, high energy, 130 BPM"
+  },
+  {
+    "id": "title_classical",
+    "prompt": "death_smiles, Bach toccata and fugue inspired, pipe organ, synth bass, driving rock beat, gothic arcade, baroque meets metal, intense, powerful, minor key, 140 BPM"
+  },
+  {
+    "id": "stage1",
+    "prompt": "death_smiles, arcade STG stage 1, moonlit rose garden, harpsichord, synth lead, fast arpeggio, gothic lolita, upbeat, driving rhythm, shooting game BGM, 155 BPM"
+  },
+  {
+    "id": "stage1_classical",
+    "prompt": "death_smiles, Chopin nocturne reimagined as arcade rock, piano melody over driving synth bass, electronic beat, fast arpeggios, gothic, energetic, romantic intensity, 140 BPM"
+  },
+  {
+    "id": "stage2",
+    "prompt": "death_smiles, arcade STG stage 2, haunted doll mansion, twisted waltz, music box, aggressive synth, dissonant, fast-paced action, eerie, driving percussion, 160 BPM"
+  },
+  {
+    "id": "stage2_classical",
+    "prompt": "death_smiles, Saint-Saens Danse Macabre reimagined as arcade boss rush, screeching synth violin, driving beat, electronic waltz, macabre, intense, skeletal dance, 170 BPM"
+  },
+  {
+    "id": "stage3",
+    "prompt": "death_smiles, arcade STG stage 3, corrupted cathedral, pipe organ, distorted synth, heavy brass, aggressive, intense action, gothic metal, driving, relentless, 165 BPM"
+  },
+  {
+    "id": "stage3_classical",
+    "prompt": "death_smiles, Mozart Requiem reimagined as arcade shooter, choir synth, driving drum beat, dramatic orchestral rock, lacrimosa, intense, dark sacred, powerful, 160 BPM"
+  },
+  {
+    "id": "stage4",
+    "prompt": "death_smiles, arcade STG stage 4, abyssal spiral staircase, heavy bass, aggressive synth, industrial percussion, oppressive, relentless, dark, intense action, 170 BPM"
+  },
+  {
+    "id": "stage4_classical",
+    "prompt": "death_smiles, Chopin funeral march reimagined as arcade boss theme, heavy distorted bass, pounding drums, dark piano, doom metal, funeral march beat, intense, 165 BPM"
+  },
+  {
+    "id": "stage5",
+    "prompt": "death_smiles, arcade STG stage 5, infernal demon temple, blazing fast, furious synth shredding, driving kick drum, aggressive guitar, intense strings, epic, wrathful, 180 BPM"
+  },
+  {
+    "id": "stage5_classical",
+    "prompt": "death_smiles, Verdi Dies Irae reimagined as arcade final stage, thunderous synth brass, driving beat, blazing electronic orchestra, apocalyptic, day of wrath, fearsome, 175 BPM"
+  },
+  {
+    "id": "stage6",
+    "prompt": "death_smiles, arcade STG final stage, throne room, desperate, full blast synth orchestra, frantic, bullet hell, climactic, heroic sacrifice, maximum intensity, tragic, 185 BPM"
+  },
+  {
+    "id": "stage6_classical",
+    "prompt": "death_smiles, Liszt Totentanz reimagined as arcade final boss, virtuosic synth solo, blazing tempo, orchestral fury, demonic, thunderous, piano cadenza, overwhelming, 180 BPM"
+  },
+  {
+    "id": "ending",
+    "prompt": "death_smiles, arcade STG ending, gothic choir, strings, synth pad, bittersweet, peaceful resolution, ethereal, emotional, credits roll, gentle, sacred, 100 BPM"
+  },
+  {
+    "id": "ending_classical",
+    "prompt": "death_smiles, Chopin Tristesse reimagined as arcade ending, tender piano, synth strings, nostalgic, bittersweet, credits theme, gentle melody, emotional, moving, 90 BPM"
+  },
+  {
+    "id": "boss_midboss",
+    "prompt": "death_smiles, arcade STG mid-boss battle, warning alarm, aggressive synth riff, driving beat, intense, fast-paced, gothic rock, short danger motif, urgent, 165 BPM"
+  },
+  {
+    "id": "boss_stage",
+    "prompt": "death_smiles, arcade STG stage boss battle, heavy synth brass, pounding drums, intense guitar riff, dramatic, desperate, gothic metal, powerful, relentless action, 175 BPM"
+  },
+  {
+    "id": "boss_final",
+    "prompt": "death_smiles, arcade STG final boss battle, overwhelming synth orchestra, frantic pace, desperate, epic, full ensemble, climactic, maximum intensity, bullet hell, tragic, 190 BPM"
+  },
+  {
+    "id": "boss_extra",
+    "prompt": "death_smiles, arcade STG hidden true boss, beyond limits, breakcore beat, aggressive synth shredding, chaotic, overwhelming, impossible, electronic metal, insane, 200 BPM"
+  }
+]
