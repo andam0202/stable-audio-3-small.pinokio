@@ -5,7 +5,7 @@
   "bgm": [
     {
       "name": "title",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, dreamy fluffy title screen, F major, 88 BPM, square wave lead melody with gentle flowing phrases, square wave counter-melody and arpeggiated chords, triangle wave bass line with warm movement, noise channel soft rhythm, tender A-melo, swelling B-melo with emotional rise, warm chorus resolution, floating on clouds, cozy and inviting, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, dreamy fluffy title screen, F major, 106 BPM, square wave lead melody with gentle flowing phrases, square wave counter-melody and arpeggiated chords, triangle wave bass line with warm movement, noise channel soft rhythm, tender A-melo, swelling B-melo with emotional rise, warm chorus resolution, floating on clouds, cozy and inviting, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, intense, distortion, heavy bass, dark",
       "duration": 90,
       "model": "medium",
@@ -15,7 +15,7 @@
     },
     {
       "name": "opening",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, cheerful opening theme, C major, 130 BPM, square wave lead melody with catchy memorable phrases, square wave harmony and bright arpeggiated chords, triangle wave walking bass line, noise channel upbeat percussion, catchy A-melo with playful variations, lively B-melo bridge, memorable chorus hook, morning sunshine, new beginnings, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, cheerful opening theme, C major, 140 BPM, square wave lead melody with catchy memorable phrases, square wave harmony and bright arpeggiated chords, triangle wave walking bass line, noise channel upbeat percussion, catchy A-melo with playful variations, lively B-melo bridge, memorable chorus hook, morning sunshine, new beginnings, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, slow, sad, ambient",
       "duration": 60,
       "model": "medium",
@@ -25,7 +25,7 @@
     },
     {
       "name": "daily_morning",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, bright cheerful morning, G major, 110 BPM, square wave lead melody with bouncy phrases, square wave harmony and warm arpeggiated chords, triangle wave bouncy bass line, noise channel light rhythm, catchy A-melo, energetic B-melo, cheerful chorus, waking up sunshine, slice of life, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, bright cheerful morning, G major, 125 BPM, square wave lead melody with bouncy phrases, square wave harmony and warm arpeggiated chords, triangle wave bouncy bass line, noise channel light rhythm, catchy A-melo, energetic B-melo, cheerful chorus, waking up sunshine, slice of life, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, aggressive, fast, intense",
       "duration": 50,
       "model": "medium",
@@ -35,7 +35,7 @@
     },
     {
       "name": "daily_afternoon",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, relaxed warm afternoon, F major, 85 BPM, square wave lead melody with gentle flowing phrases, square wave soft counter-melody and arpeggiated chords, triangle wave smooth bass line, noise channel gentle rhythm, gentle A-melo, warm B-melo, peaceful chorus, lazy sunshine, easygoing day, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, relaxed warm afternoon, F major, 100 BPM, square wave lead melody with gentle flowing phrases, square wave soft counter-melody and arpeggiated chords, triangle wave smooth bass line, noise channel gentle rhythm, gentle A-melo, warm B-melo, peaceful chorus, lazy sunshine, easygoing day, retro video game",
       "negative_prompt": "vocals, realistic instruments, energetic, fast, intense, aggressive",
       "duration": 50,
       "model": "medium",
@@ -45,7 +45,7 @@
     },
     {
       "name": "school",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, energetic school theme, D major, 130 BPM, square wave lead melody with quick playful phrases, square wave harmony and fast arpeggiated chords, triangle wave driving bass line, noise channel busy percussion, catchy A-melo with variations, lively B-melo, bustling chorus, youthful and lively, anime school, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, energetic school theme, D major, 140 BPM, square wave lead melody with quick playful phrases, square wave harmony and fast arpeggiated chords, triangle wave driving bass line, noise channel busy percussion, catchy A-melo with variations, lively B-melo, bustling chorus, youthful and lively, anime school, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, slow, ambient, scary",
       "duration": 50,
       "model": "medium",
@@ -55,7 +55,7 @@
     },
     {
       "name": "library",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, quiet library atmosphere, E-flat major, 72 BPM, square wave lead melody with delicate gentle phrases, square wave soft harmony and sparse arpeggiated chords, triangle wave quiet bass line, noise channel very soft rhythm, tender A-melo, calm B-melo, hushed chorus, studying together, warm lighting, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, quiet library atmosphere, E-flat major, 89 BPM, square wave lead melody with delicate gentle phrases, square wave soft harmony and sparse arpeggiated chords, triangle wave quiet bass line, noise channel very soft rhythm, tender A-melo, calm B-melo, hushed chorus, studying together, warm lighting, retro video game",
       "negative_prompt": "vocals, realistic instruments, loud, fast, aggressive, energetic",
       "duration": 50,
       "model": "medium",
@@ -65,7 +65,7 @@
     },
     {
       "name": "rooftop",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, school rooftop open sky, A major, 90 BPM, square wave lead melody with soaring phrases, square wave airy counter-melody and arpeggiated chords, triangle wave gentle bass line, noise channel soft breeze rhythm, contemplative A-melo, freeing B-melo, emotional chorus, gentle wind, anime moment, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, school rooftop open sky, A major, 105 BPM, square wave lead melody with soaring phrases, square wave airy counter-melody and arpeggiated chords, triangle wave gentle bass line, noise channel soft breeze rhythm, contemplative A-melo, freeing B-melo, emotional chorus, gentle wind, anime moment, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, aggressive, heavy, intense",
       "duration": 50,
       "model": "medium",
@@ -75,7 +75,7 @@
     },
     {
       "name": "sunset",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, beautiful sunset, B-flat major, 80 BPM, square wave lead melody with warm descending phrases, square wave golden harmony and arpeggiated chords, triangle wave warm bass line, noise channel gentle rhythm, warm A-melo, nostalgic B-melo, peaceful chorus, golden hour, day ending, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, beautiful sunset, B-flat major, 95 BPM, square wave lead melody with warm descending phrases, square wave golden harmony and arpeggiated chords, triangle wave warm bass line, noise channel gentle rhythm, warm A-melo, nostalgic B-melo, peaceful chorus, golden hour, day ending, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, fast, aggressive, energetic",
       "duration": 50,
       "model": "medium",
@@ -85,7 +85,7 @@
     },
     {
       "name": "cooking",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, fun cooking scene, F major, 115 BPM, square wave lead melody with playful bouncing phrases, square wave cheerful harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel lively percussion, catchy A-melo with variations, playful B-melo, cheerful chorus, kitchen happiness, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, fun cooking scene, F major, 130 BPM, square wave lead melody with playful bouncing phrases, square wave cheerful harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel lively percussion, catchy A-melo with variations, playful B-melo, cheerful chorus, kitchen happiness, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, intense, scary, sad",
       "duration": 45,
       "model": "medium",
@@ -95,7 +95,7 @@
     },
     {
       "name": "cooking_together",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, romantic cooking together, G major, 108 BPM, square wave lead melody with playful duet phrases, square wave call-and-response harmony and arpeggiated chords, triangle wave warm bass line, noise channel light percussion, playful A-melo, warm B-melo, joyful chorus, intimate domestic, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, romantic cooking together, G major, 126 BPM, square wave lead melody with playful duet phrases, square wave call-and-response harmony and arpeggiated chords, triangle wave warm bass line, noise channel light percussion, playful A-melo, warm B-melo, joyful chorus, intimate domestic, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, intense, scary, sad, lonely",
       "duration": 45,
       "model": "medium",
@@ -105,7 +105,7 @@
     },
     {
       "name": "shopping",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, fun shopping trip, B-flat major, 120 BPM, square wave lead melody with bouncy catchy phrases, square wave bright harmony and arpeggiated chords, triangle wave walking bass line, noise channel cheerful percussion, catchy A-melo, lively B-melo, bouncy chorus, lighthearted and playful, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, fun shopping trip, B-flat major, 130 BPM, square wave lead melody with bouncy catchy phrases, square wave bright harmony and arpeggiated chords, triangle wave walking bass line, noise channel cheerful percussion, catchy A-melo, lively B-melo, bouncy chorus, lighthearted and playful, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, slow, sad, intense",
       "duration": 45,
       "model": "medium",
@@ -115,7 +115,7 @@
     },
     {
       "name": "cafe",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, cozy cafe atmosphere, A-flat major, 82 BPM, square wave lead melody with gentle swaying phrases, square wave warm harmony and arpeggiated chords, triangle wave smooth bass line, noise channel soft brush rhythm, warm A-melo, intimate B-melo, relaxed chorus, warm conversation mood, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, cozy cafe atmosphere, A-flat major, 99 BPM, square wave lead melody with gentle swaying phrases, square wave warm harmony and arpeggiated chords, triangle wave smooth bass line, noise channel soft brush rhythm, warm A-melo, intimate B-melo, relaxed chorus, warm conversation mood, retro video game",
       "negative_prompt": "vocals, realistic instruments, loud, aggressive, fast, intense",
       "duration": 50,
       "model": "medium",
@@ -125,7 +125,7 @@
     },
     {
       "name": "studying",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, focused studying, D minor, 78 BPM, square wave lead melody with repetitive focused phrases, square wave steady harmony and arpeggiated chords, triangle wave grounded bass line, noise channel minimal rhythm, steady A-melo, building B-melo, resolved chorus, concentration, quiet determination, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, focused studying, D minor, 96 BPM, square wave lead melody with repetitive focused phrases, square wave steady harmony and arpeggiated chords, triangle wave grounded bass line, noise channel minimal rhythm, steady A-melo, building B-melo, resolved chorus, concentration, quiet determination, retro video game",
       "negative_prompt": "vocals, realistic instruments, loud, fast, aggressive, distracting",
       "duration": 50,
       "model": "medium",
@@ -135,7 +135,7 @@
     },
     {
       "name": "nap",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, peaceful nap time, E-flat major, 68 BPM, square wave lead melody with very soft drifting phrases, square wave dreamy harmony and slow arpeggiated chords, triangle wave gentle bass line, noise channel barely-there rhythm, gentle A-melo, floating B-melo, lullaby chorus, warm blanket feeling, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, peaceful nap time, E-flat major, 86 BPM, square wave lead melody with very soft drifting phrases, square wave dreamy harmony and slow arpeggiated chords, triangle wave gentle bass line, noise channel barely-there rhythm, gentle A-melo, floating B-melo, lullaby chorus, warm blanket feeling, retro video game",
       "negative_prompt": "vocals, realistic instruments, loud, fast, energetic, intense, percussion",
       "duration": 45,
       "model": "medium",
@@ -145,7 +145,7 @@
     },
     {
       "name": "sweet_moment",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, romantic sweet moment, A minor to C major, 95 BPM, square wave lead melody with tender phrases, square wave warm counter-melody and arpeggiated chords, triangle wave moving bass line, noise channel soft rhythm, tender A-melo, swelling B-melo with emotional rise, warm chorus resolution, love scene, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, romantic sweet moment, A minor to C major, 110 BPM, square wave lead melody with tender phrases, square wave warm counter-melody and arpeggiated chords, triangle wave moving bass line, noise channel soft rhythm, tender A-melo, swelling B-melo with emotional rise, warm chorus resolution, love scene, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, dark, intense",
       "duration": 55,
       "model": "medium",
@@ -155,7 +155,7 @@
     },
     {
       "name": "confession",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, emotional confession scene, F major, 88 BPM, square wave lead melody with nervous-to-warm phrases, square wave trembling harmony and arpeggiated chords, triangle wave pulsing bass line, noise channel heartbeat rhythm, nervous A-melo, building B-melo, warm release chorus, vulnerable and honest, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, emotional confession scene, F major, 106 BPM, square wave lead melody with nervous-to-warm phrases, square wave trembling harmony and arpeggiated chords, triangle wave pulsing bass line, noise channel heartbeat rhythm, nervous A-melo, building B-melo, warm release chorus, vulnerable and honest, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, comedic, fast, dark",
       "duration": 50,
       "model": "medium",
@@ -165,7 +165,7 @@
     },
     {
       "name": "dokidoki",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, tension and anticipation, E minor, 115 BPM, square wave lead melody with pulsing tense phrases, square wave staccato harmony and arpeggiated chords, triangle wave driving bass line, noise channel quick rhythm, tense pulsing A-melo, building B-melo with ascending tension, dramatic peak section, heartbeat-like, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, tension and anticipation, E minor, 130 BPM, square wave lead melody with pulsing tense phrases, square wave staccato harmony and arpeggiated chords, triangle wave driving bass line, noise channel quick rhythm, tense pulsing A-melo, building B-melo with ascending tension, dramatic peak section, heartbeat-like, retro video game",
       "negative_prompt": "vocals, realistic instruments, calm, slow, peaceful, ambient",
       "duration": 50,
       "model": "medium",
@@ -175,7 +175,7 @@
     },
     {
       "name": "first_kiss",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, magical first kiss, D major, 85 BPM, square wave lead melody with sparkling ascending phrases, square wave ethereal harmony and arpeggiated chords, triangle wave swelling bass line, noise channel soft shimmer rhythm, tender A-melo, magical B-melo, breathtaking chorus, anime romance peak, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, magical first kiss, D major, 100 BPM, square wave lead melody with sparkling ascending phrases, square wave ethereal harmony and arpeggiated chords, triangle wave swelling bass line, noise channel soft shimmer rhythm, tender A-melo, magical B-melo, breathtaking chorus, anime romance peak, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, comedic",
       "duration": 40,
       "model": "medium",
@@ -185,7 +185,7 @@
     },
     {
       "name": "mischief",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, playful mischievous, B-flat major, 120 BPM, square wave lead melody with staccato cheeky phrases, square wave sneaky harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel playful percussion, bouncy A-melo with quick phrases, sneaky B-melo, playful chorus, comedy scene, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, playful mischievous, B-flat major, 130 BPM, square wave lead melody with staccato cheeky phrases, square wave sneaky harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel playful percussion, bouncy A-melo with quick phrases, sneaky B-melo, playful chorus, comedy scene, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, scary, slow, serious",
       "duration": 45,
       "model": "medium",
@@ -195,7 +195,7 @@
     },
     {
       "name": "comedy",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, slapstick comedy, C major, 135 BPM, square wave lead melody with silly fast bouncing phrases, square wave wacky harmony and arpeggiated chords, triangle wave galloping bass line, noise channel energetic percussion, bouncy A-melo with quick phrases, silly B-melo, chaotic chorus, anime humor, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, slapstick comedy, C major, 145 BPM, square wave lead melody with silly fast bouncing phrases, square wave wacky harmony and arpeggiated chords, triangle wave galloping bass line, noise channel energetic percussion, bouncy A-melo with quick phrases, silly B-melo, chaotic chorus, anime humor, retro video game",
       "negative_prompt": "vocals, realistic instruments, serious, sad, dark, romantic",
       "duration": 40,
       "model": "medium",
@@ -205,7 +205,7 @@
     },
     {
       "name": "jealousy",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, jealous tension, C minor, 105 BPM, square wave lead melody with uneasy staccato phrases, square wave dissonant harmony and arpeggiated chords, triangle wave restless bass line, noise channel tense rhythm, uneasy A-melo, darker B-melo, intense chorus, possessive undertone, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, jealous tension, C minor, 120 BPM, square wave lead melody with uneasy staccato phrases, square wave dissonant harmony and arpeggiated chords, triangle wave restless bass line, noise channel tense rhythm, uneasy A-melo, darker B-melo, intense chorus, possessive undertone, retro video game",
       "negative_prompt": "vocals, realistic instruments, cheerful, happy, calm, peaceful",
       "duration": 45,
       "model": "medium",
@@ -215,7 +215,7 @@
     },
     {
       "name": "love_triangle",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, complicated love triangle, B minor, 92 BPM, square wave lead melody with bittersweet phrases, square wave conflicting harmony and arpeggiated chords, triangle wave uneasy bass line, noise channel subtle rhythm, bittersweet A-melo, conflicted B-melo, emotional chorus, anime romantic drama, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, complicated love triangle, B minor, 109 BPM, square wave lead melody with bittersweet phrases, square wave conflicting harmony and arpeggiated chords, triangle wave uneasy bass line, noise channel subtle rhythm, bittersweet A-melo, conflicted B-melo, emotional chorus, anime romantic drama, retro video game",
       "negative_prompt": "vocals, realistic instruments, cheerful, comedic, aggressive, fast",
       "duration": 50,
       "model": "medium",
@@ -225,7 +225,7 @@
     },
     {
       "name": "embarrassment",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, cute embarrassment, G major, 125 BPM, square wave lead melody with quick nervous flustered phrases, square wave shy harmony and arpeggiated chords, triangle wave quick bass line, noise channel fidgety rhythm, nervous A-melo, flustered B-melo, cute chorus, blushing moment, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, cute embarrassment, G major, 135 BPM, square wave lead melody with quick nervous flustered phrases, square wave shy harmony and arpeggiated chords, triangle wave quick bass line, noise channel fidgety rhythm, nervous A-melo, flustered B-melo, cute chorus, blushing moment, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, scary, serious, intense",
       "duration": 40,
       "model": "medium",
@@ -235,7 +235,7 @@
     },
     {
       "name": "teasing",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, playful teasing, A major, 112 BPM, square wave lead melody with sassy flirty phrases, square wave knowing harmony and arpeggiated chords, triangle wave groovy bass line, noise channel light bouncy rhythm, sassy A-melo, playful B-melo, cheeky chorus, knowing smile, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, playful teasing, A major, 129 BPM, square wave lead melody with sassy flirty phrases, square wave knowing harmony and arpeggiated chords, triangle wave groovy bass line, noise channel light bouncy rhythm, sassy A-melo, playful B-melo, cheeky chorus, knowing smile, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, sad, serious, intense",
       "duration": 40,
       "model": "medium",
@@ -245,7 +245,7 @@
     },
     {
       "name": "night_calm",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, quiet peaceful night, E-flat major, 75 BPM, square wave lead melody with soft gentle phrases, square wave ethereal harmony and arpeggiated chords, triangle wave calm bass line, noise channel very soft rhythm, gentle A-melo, serene B-melo, dreamy chorus, crickets and moonlight, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, quiet peaceful night, E-flat major, 90 BPM, square wave lead melody with soft gentle phrases, square wave ethereal harmony and arpeggiated chords, triangle wave calm bass line, noise channel very soft rhythm, gentle A-melo, serene B-melo, dreamy chorus, crickets and moonlight, retro video game",
       "negative_prompt": "vocals, realistic instruments, loud, fast, aggressive, energetic",
       "duration": 50,
       "model": "medium",
@@ -255,7 +255,7 @@
     },
     {
       "name": "night_walk",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, nighttime stroll, F major, 82 BPM, square wave lead melody with gentle swaying phrases, square wave warm harmony and arpeggiated chords, triangle wave walking bass line, noise channel soft step rhythm, warm A-melo, slightly mysterious B-melo, tender chorus, walking under stars, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, nighttime stroll, F major, 99 BPM, square wave lead melody with gentle swaying phrases, square wave warm harmony and arpeggiated chords, triangle wave walking bass line, noise channel soft step rhythm, warm A-melo, slightly mysterious B-melo, tender chorus, walking under stars, retro video game",
       "negative_prompt": "vocals, realistic instruments, loud, fast, aggressive, scary",
       "duration": 50,
       "model": "medium",
@@ -265,7 +265,7 @@
     },
     {
       "name": "night_sentimental",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, emotional sentimental night, C minor, 72 BPM, square wave lead melody with melancholy descending phrases, square wave sad harmony and arpeggiated chords, triangle wave heavy bass line, noise channel minimal rhythm, melancholy A-melo, deeper emotional B-melo, quiet resolution, alone with thoughts, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, emotional sentimental night, C minor, 82 BPM, square wave lead melody with melancholy descending phrases, square wave sad harmony and arpeggiated chords, triangle wave heavy bass line, noise channel minimal rhythm, melancholy A-melo, deeper emotional B-melo, quiet resolution, alone with thoughts, retro video game",
       "negative_prompt": "vocals, realistic instruments, cheerful, fast, energetic, happy",
       "duration": 50,
       "model": "medium",
@@ -275,7 +275,7 @@
     },
     {
       "name": "stargazing",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, stargazing vast night sky, D major, 78 BPM, square wave lead melody with twinkling phrases, square wave ethereal harmony and arpeggiated chords, triangle wave deep bass line, noise channel shimmer rhythm, wonder A-melo, vast B-melo, awe chorus, peaceful and romantic, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, stargazing vast night sky, D major, 96 BPM, square wave lead melody with twinkling phrases, square wave ethereal harmony and arpeggiated chords, triangle wave deep bass line, noise channel shimmer rhythm, wonder A-melo, vast B-melo, awe chorus, peaceful and romantic, retro video game",
       "negative_prompt": "vocals, realistic instruments, loud, fast, aggressive, urban",
       "duration": 50,
       "model": "medium",
@@ -285,7 +285,7 @@
     },
     {
       "name": "rainy_day",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, rainy day atmosphere, D minor, 80 BPM, square wave lead melody with gentle descending phrases, square wave warm harmony and arpeggiated chords, triangle wave steady bass line, noise channel rain-like rhythm, cozy A-melo, contemplative B-melo, melancholy chorus, staying inside, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, rainy day atmosphere, D minor, 95 BPM, square wave lead melody with gentle descending phrases, square wave warm harmony and arpeggiated chords, triangle wave steady bass line, noise channel rain-like rhythm, cozy A-melo, contemplative B-melo, melancholy chorus, staying inside, retro video game",
       "negative_prompt": "vocals, realistic instruments, bright, energetic, fast, cheerful",
       "duration": 50,
       "model": "medium",
@@ -295,7 +295,7 @@
     },
     {
       "name": "sad",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sad melancholy, G minor, 70 BPM, square wave lead melody with slow weeping phrases, square wave mournful harmony and arpeggiated chords, triangle wave heavy bass line, noise channel minimal rhythm, melancholy A-melo, deeper emotional B-melo, quiet resolution, heartbreak and loss, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sad melancholy, G minor, 80 BPM, square wave lead melody with slow weeping phrases, square wave mournful harmony and arpeggiated chords, triangle wave heavy bass line, noise channel minimal rhythm, melancholy A-melo, deeper emotional B-melo, quiet resolution, heartbreak and loss, retro video game",
       "negative_prompt": "vocals, realistic instruments, happy, fast, energetic, cheerful",
       "duration": 55,
       "model": "medium",
@@ -305,7 +305,7 @@
     },
     {
       "name": "rejection",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, painful rejection, F minor, 68 BPM, square wave lead melody with dissonant aching phrases, square wave harsh harmony and arpeggiated chords, triangle wave heavy bass line, noise channel sparse rhythm, painful A-melo, crushing B-melo, lonely resolution, breaking heart, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, painful rejection, F minor, 78 BPM, square wave lead melody with dissonant aching phrases, square wave harsh harmony and arpeggiated chords, triangle wave heavy bass line, noise channel sparse rhythm, painful A-melo, crushing B-melo, lonely resolution, breaking heart, retro video game",
       "negative_prompt": "vocals, realistic instruments, happy, cheerful, upbeat, comedic",
       "duration": 45,
       "model": "medium",
@@ -315,7 +315,7 @@
     },
     {
       "name": "separation",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sad separation farewell, E minor, 75 BPM, square wave lead melody with longing phrases, square wave distant harmony and arpeggiated chords, triangle wave fading bass line, noise channel gentle rhythm, farewell A-melo, longing B-melo, bittersweet chorus, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sad separation farewell, E minor, 85 BPM, square wave lead melody with longing phrases, square wave distant harmony and arpeggiated chords, triangle wave fading bass line, noise channel gentle rhythm, farewell A-melo, longing B-melo, bittersweet chorus, retro video game",
       "negative_prompt": "vocals, realistic instruments, cheerful, fast, energetic, comedic",
       "duration": 50,
       "model": "medium",
@@ -325,7 +325,7 @@
     },
     {
       "name": "reunion",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, joyful reunion, C major, 120 BPM, square wave lead melody with swelling triumphant phrases, square wave bright harmony and arpeggiated chords, triangle wave driving bass line, noise channel energetic percussion, hopeful A-melo, swelling B-melo, triumphant chorus, tears of happiness, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, joyful reunion, C major, 130 BPM, square wave lead melody with swelling triumphant phrases, square wave bright harmony and arpeggiated chords, triangle wave driving bass line, noise channel energetic percussion, hopeful A-melo, swelling B-melo, triumphant chorus, tears of happiness, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, scary, aggressive, comedic",
       "duration": 45,
       "model": "medium",
@@ -335,7 +335,7 @@
     },
     {
       "name": "apology",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sincere apology, B-flat major, 82 BPM, square wave lead melody with humble gentle phrases, square wave warm harmony and arpeggiated chords, triangle wave steady bass line, noise channel soft rhythm, humble A-melo, hopeful B-melo, warm resolution chorus, regret and hope, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sincere apology, B-flat major, 99 BPM, square wave lead melody with humble gentle phrases, square wave warm harmony and arpeggiated chords, triangle wave steady bass line, noise channel soft rhythm, humble A-melo, hopeful B-melo, warm resolution chorus, regret and hope, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, comedic, fast, intense",
       "duration": 45,
       "model": "medium",
@@ -345,7 +345,7 @@
     },
     {
       "name": "promise",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, making a promise, C major, 90 BPM, square wave lead melody with hopeful determined phrases, square wave warm harmony and arpeggiated chords, triangle wave steady bass line, noise channel gentle rhythm, determined A-melo, hopeful B-melo, sincere chorus, pinky swear, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, making a promise, C major, 105 BPM, square wave lead melody with hopeful determined phrases, square wave warm harmony and arpeggiated chords, triangle wave steady bass line, noise channel gentle rhythm, determined A-melo, hopeful B-melo, sincere chorus, pinky swear, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, scary, aggressive, comedic",
       "duration": 45,
       "model": "medium",
@@ -355,7 +355,7 @@
     },
     {
       "name": "climax",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, dramatic climax, D minor, 135 BPM, square wave lead melody with intense powerful phrases, square wave urgent harmony and fast arpeggiated chords, triangle wave driving bass line, noise channel intense percussion, urgent A-melo, rising B-melo, explosive climax section, anime dramatic peak, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, dramatic climax, D minor, 145 BPM, square wave lead melody with intense powerful phrases, square wave urgent harmony and fast arpeggiated chords, triangle wave driving bass line, noise channel intense percussion, urgent A-melo, rising B-melo, explosive climax section, anime dramatic peak, retro video game",
       "negative_prompt": "vocals, realistic instruments, calm, slow, peaceful, ambient",
       "duration": 40,
       "model": "medium",
@@ -365,7 +365,7 @@
     },
     {
       "name": "horror",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, creepy horror atmosphere, E minor, 65 BPM, square wave lead melody with unsettling phrases, square wave dissonant harmony and arpeggiated chords, triangle wave low drone bass line, noise channel eerie rhythm, unsettling quiet A-melo, building dread B-melo, intense climax, dark and mysterious, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, creepy horror atmosphere, E minor, 75 BPM, square wave lead melody with unsettling phrases, square wave dissonant harmony and arpeggiated chords, triangle wave low drone bass line, noise channel eerie rhythm, unsettling quiet A-melo, building dread B-melo, intense climax, dark and mysterious, retro video game",
       "negative_prompt": "vocals, realistic instruments, cheerful, bright, happy, comedic",
       "duration": 45,
       "model": "medium",
@@ -375,7 +375,7 @@
     },
     {
       "name": "nightmare",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, nightmare scene, C minor, 70 BPM, square wave lead melody with distorted frantic phrases, square wave dissonant harmony and arpeggiated chords, triangle wave dark bass line, noise channel chaotic rhythm, frantic A-melo, claustrophobic B-melo, terrifying climax, horror anime, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, nightmare scene, C minor, 80 BPM, square wave lead melody with distorted frantic phrases, square wave dissonant harmony and arpeggiated chords, triangle wave dark bass line, noise channel chaotic rhythm, frantic A-melo, claustrophobic B-melo, terrifying climax, horror anime, retro video game",
       "negative_prompt": "vocals, realistic instruments, cheerful, bright, happy, calm",
       "duration": 40,
       "model": "medium",
@@ -385,7 +385,7 @@
     },
     {
       "name": "dream",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, surreal dream sequence, A major, 80 BPM, square wave lead melody with floating ethereal phrases, square wave dreamy harmony and arpeggiated chords, triangle wave drifting bass line, noise channel soft shimmer rhythm, floating A-melo, mysterious B-melo, wonder chorus, otherworldly, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, surreal dream sequence, A major, 95 BPM, square wave lead melody with floating ethereal phrases, square wave dreamy harmony and arpeggiated chords, triangle wave drifting bass line, noise channel soft shimmer rhythm, floating A-melo, mysterious B-melo, wonder chorus, otherworldly, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, loud, harsh, fast",
       "duration": 50,
       "model": "medium",
@@ -395,7 +395,7 @@
     },
     {
       "name": "bathroom",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, relaxing bath scene, F-sharp major, 80 BPM, square wave lead melody with warm flowing phrases, square wave steamy harmony and arpeggiated chords, triangle wave smooth bass line, noise channel water-like rhythm, warm A-melo, intimate B-melo, calm chorus, steamy atmosphere, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, relaxing bath scene, F-sharp major, 95 BPM, square wave lead melody with warm flowing phrases, square wave steamy harmony and arpeggiated chords, triangle wave smooth bass line, noise channel water-like rhythm, warm A-melo, intimate B-melo, calm chorus, steamy atmosphere, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, intense, dark",
       "duration": 45,
       "model": "medium",
@@ -405,7 +405,7 @@
     },
     {
       "name": "hot_spring",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, hot spring scene, G major, 76 BPM, square wave lead melody with pentatonic phrases, square wave traditional harmony and arpeggiated chords, triangle wave warm bass line, noise channel soft water rhythm, peaceful A-melo, serene B-melo, relaxed chorus, traditional Japanese, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, hot spring scene, G major, 92 BPM, square wave lead melody with pentatonic phrases, square wave traditional harmony and arpeggiated chords, triangle wave warm bass line, noise channel soft water rhythm, peaceful A-melo, serene B-melo, relaxed chorus, traditional Japanese, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, intense, urban",
       "duration": 45,
       "model": "medium",
@@ -415,7 +415,7 @@
     },
     {
       "name": "secret_time",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sneaky secret moment, A minor, 105 BPM, square wave lead melody with quick staccato sneaky phrases, square wave mischievous harmony and arpeggiated chords, triangle wave tiptoeing bass line, noise channel light stealthy rhythm, sneaky A-melo, playful B-melo, intimate chorus, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sneaky secret moment, A minor, 120 BPM, square wave lead melody with quick staccato sneaky phrases, square wave mischievous harmony and arpeggiated chords, triangle wave tiptoeing bass line, noise channel light stealthy rhythm, sneaky A-melo, playful B-melo, intimate chorus, retro video game",
       "negative_prompt": "vocals, realistic instruments, loud, slow, ambient, calm",
       "duration": 45,
       "model": "medium",
@@ -425,7 +425,7 @@
     },
     {
       "name": "warm_skin",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, intimate warm moment, D-flat major, 78 BPM, square wave lead melody with very soft close phrases, square wave warm counter-melody and arpeggiated chords, triangle wave gentle breathing bass line, noise channel barely-there rhythm, tender A-melo, swelling B-melo, intimate chorus, romantic atmosphere, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, intimate warm moment, D-flat major, 96 BPM, square wave lead melody with very soft close phrases, square wave warm counter-melody and arpeggiated chords, triangle wave gentle breathing bass line, noise channel barely-there rhythm, tender A-melo, swelling B-melo, intimate chorus, romantic atmosphere, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
       "duration": 50,
       "model": "medium",
@@ -435,7 +435,7 @@
     },
     {
       "name": "changing_room",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, flustered changing room, E major, 118 BPM, square wave lead melody with nervous quick phrases, square wave shy harmony and arpeggiated chords, triangle wave fidgety bass line, noise channel quick rhythm, nervous A-melo, flustered B-melo, cute chorus, embarrassed and awkward, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, flustered changing room, E major, 136 BPM, square wave lead melody with nervous quick phrases, square wave shy harmony and arpeggiated chords, triangle wave fidgety bass line, noise channel quick rhythm, nervous A-melo, flustered B-melo, cute chorus, embarrassed and awkward, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, scary, serious, intense",
       "duration": 40,
       "model": "medium",
@@ -445,7 +445,7 @@
     },
     {
       "name": "pajamas",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, cozy pajamas bedtime, C major, 75 BPM, square wave lead melody with soft sleepy phrases, square wave music box harmony and arpeggiated chords, triangle wave warm bass line, noise channel gentle rhythm, sleepy A-melo, warm B-melo, lullaby chorus, intimate and cozy, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, cozy pajamas bedtime, C major, 90 BPM, square wave lead melody with soft sleepy phrases, square wave music box harmony and arpeggiated chords, triangle wave warm bass line, noise channel gentle rhythm, sleepy A-melo, warm B-melo, lullaby chorus, intimate and cozy, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, intense",
       "duration": 45,
       "model": "medium",
@@ -455,7 +455,7 @@
     },
     {
       "name": "home_alone",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, home alone atmosphere, F minor, 72 BPM, square wave lead melody with lonely quiet phrases, square wave sparse harmony and arpeggiated chords, triangle wave slow bass line, noise channel minimal rhythm, lonely A-melo, slightly eerie B-melo, quiet chorus, empty house, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, home alone atmosphere, F minor, 89 BPM, square wave lead melody with lonely quiet phrases, square wave sparse harmony and arpeggiated chords, triangle wave slow bass line, noise channel minimal rhythm, lonely A-melo, slightly eerie B-melo, quiet chorus, empty house, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, loud, fast, energetic",
       "duration": 50,
       "model": "medium",
@@ -465,7 +465,7 @@
     },
     {
       "name": "festival",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, Japanese summer festival, G major, 128 BPM, square wave lead melody with pentatonic festive phrases, square wave bright harmony and arpeggiated chords, triangle wave driving bass line, noise channel taiko-style percussion, festive A-melo, lively B-melo, joyful chorus, matsuri atmosphere, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, Japanese summer festival, G major, 138 BPM, square wave lead melody with pentatonic festive phrases, square wave bright harmony and arpeggiated chords, triangle wave driving bass line, noise channel taiko-style percussion, festive A-melo, lively B-melo, joyful chorus, matsuri atmosphere, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, slow, sad, winter",
       "duration": 50,
       "model": "medium",
@@ -475,7 +475,7 @@
     },
     {
       "name": "fireworks",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, fireworks display, D major, 90 BPM, square wave lead melody with sparkling ascending phrases, square wave majestic harmony and arpeggiated chords, triangle wave swelling bass line, noise channel shimmering percussion, sparkling A-melo, swelling B-melo, majestic chorus, summer night sky, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, fireworks display, D major, 105 BPM, square wave lead melody with sparkling ascending phrases, square wave majestic harmony and arpeggiated chords, triangle wave swelling bass line, noise channel shimmering percussion, sparkling A-melo, swelling B-melo, majestic chorus, summer night sky, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, sad, aggressive, winter",
       "duration": 45,
       "model": "medium",
@@ -485,7 +485,7 @@
     },
     {
       "name": "beach",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sunny beach, A major, 125 BPM, square wave lead melody with bright refreshing phrases, square wave cheerful harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel upbeat percussion, refreshing A-melo, lively B-melo, tropical chorus, summer vacation, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sunny beach, A major, 135 BPM, square wave lead melody with bright refreshing phrases, square wave cheerful harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel upbeat percussion, refreshing A-melo, lively B-melo, tropical chorus, summer vacation, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, cold, winter, sad",
       "duration": 50,
       "model": "medium",
@@ -495,7 +495,7 @@
     },
     {
       "name": "pool",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, swimming pool fun, F major, 120 BPM, square wave lead melody with splashy playful phrases, square wave bright harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel splashy percussion, playful A-melo, energetic B-melo, refreshing chorus, summer fun, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, swimming pool fun, F major, 130 BPM, square wave lead melody with splashy playful phrases, square wave bright harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel splashy percussion, playful A-melo, energetic B-melo, refreshing chorus, summer fun, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, sad, slow, winter",
       "duration": 45,
       "model": "medium",
@@ -505,7 +505,7 @@
     },
     {
       "name": "game_center",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, arcade game center, C major, 135 BPM, square wave lead melody with electronic catchy phrases, square wave bouncy harmony and arpeggiated chords, triangle wave driving bass line, noise channel energetic percussion, catchy A-melo, exciting B-melo, competitive chorus, youth excitement, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, arcade game center, C major, 145 BPM, square wave lead melody with electronic catchy phrases, square wave bouncy harmony and arpeggiated chords, triangle wave driving bass line, noise channel energetic percussion, catchy A-melo, exciting B-melo, competitive chorus, youth excitement, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, sad, slow, ambient",
       "duration": 45,
       "model": "medium",
@@ -515,7 +515,7 @@
     },
     {
       "name": "karaoke",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, karaoke room fun, G major, 128 BPM, square wave lead melody with pop catchy phrases, square wave bright harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel lively percussion, fun A-melo, lively B-melo, cheerful chorus, friends having fun, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, karaoke room fun, G major, 138 BPM, square wave lead melody with pop catchy phrases, square wave bright harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel lively percussion, fun A-melo, lively B-melo, cheerful chorus, friends having fun, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, sad, slow, intense",
       "duration": 45,
       "model": "medium",
@@ -525,7 +525,7 @@
     },
     {
       "name": "christmas",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, Christmas atmosphere, C major, 85 BPM, square wave lead melody with gentle bell-like phrases, square wave warm harmony and arpeggiated chords, triangle wave warm bass line, noise channel soft jingle rhythm, warm A-melo, festive B-melo, cozy chorus, romantic winter evening, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, Christmas atmosphere, C major, 100 BPM, square wave lead melody with gentle bell-like phrases, square wave warm harmony and arpeggiated chords, triangle wave warm bass line, noise channel soft jingle rhythm, warm A-melo, festive B-melo, cozy chorus, romantic winter evening, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, aggressive, fast, scary",
       "duration": 50,
       "model": "medium",
@@ -535,7 +535,7 @@
     },
     {
       "name": "valentine",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, Valentine romance, F major, 88 BPM, square wave lead melody with sweet tender phrases, square wave loving harmony and arpeggiated chords, triangle wave gentle bass line, noise channel soft rhythm, sweet A-melo, hopeful B-melo, loving chorus, chocolate and anticipation, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, Valentine romance, F major, 106 BPM, square wave lead melody with sweet tender phrases, square wave loving harmony and arpeggiated chords, triangle wave gentle bass line, noise channel soft rhythm, sweet A-melo, hopeful B-melo, loving chorus, chocolate and anticipation, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, aggressive, sad, scary",
       "duration": 50,
       "model": "medium",
@@ -545,7 +545,7 @@
     },
     {
       "name": "nostalgia",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, nostalgic reflection, E major, 68 BPM, square wave lead melody with slow wistful phrases, square wave warm harmony and arpeggiated chords, triangle wave gentle bass line, noise channel soft rhythm, wistful A-melo, bittersweet B-melo, warm resolution, looking back at memories, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, nostalgic reflection, E major, 86 BPM, square wave lead melody with slow wistful phrases, square wave warm harmony and arpeggiated chords, triangle wave gentle bass line, noise channel soft rhythm, wistful A-melo, bittersweet B-melo, warm resolution, looking back at memories, retro video game",
       "negative_prompt": "vocals, realistic instruments, fast, energetic, aggressive",
       "duration": 50,
       "model": "medium",
@@ -555,7 +555,7 @@
     },
     {
       "name": "gratitude",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, gratitude thankfulness, B-flat major, 88 BPM, square wave lead melody with warm sincere phrases, square wave uplifting harmony and arpeggiated chords, triangle wave warm bass line, noise channel gentle rhythm, warm A-melo, uplifting B-melo, heartfelt chorus, emotional and uplifting, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, gratitude thankfulness, B-flat major, 106 BPM, square wave lead melody with warm sincere phrases, square wave uplifting harmony and arpeggiated chords, triangle wave warm bass line, noise channel gentle rhythm, warm A-melo, uplifting B-melo, heartfelt chorus, emotional and uplifting, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, aggressive, fast, scary",
       "duration": 45,
       "model": "medium",
@@ -565,7 +565,7 @@
     },
     {
       "name": "ending",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, emotional ending theme, C major, 95 BPM, square wave lead melody with bittersweet phrases, square wave warm harmony and arpeggiated chords, triangle wave gentle bass line, noise channel soft rhythm, bittersweet A-melo, emotional B-melo, warm resolution chorus, anime credits roll, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, emotional ending theme, C major, 110 BPM, square wave lead melody with bittersweet phrases, square wave warm harmony and arpeggiated chords, triangle wave gentle bass line, noise channel soft rhythm, bittersweet A-melo, emotional B-melo, warm resolution chorus, anime credits roll, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, dark",
       "duration": 55,
       "model": "medium",
@@ -575,7 +575,7 @@
     },
     {
       "name": "credits",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, credit roll theme, C major, 92 BPM, square wave lead melody with reflective warm phrases, square wave building harmony and arpeggiated chords, triangle wave steady bass line, noise channel gentle rhythm, reflective A-melo, building B-melo, satisfying chorus, warm resolution, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, credit roll theme, C major, 109 BPM, square wave lead melody with reflective warm phrases, square wave building harmony and arpeggiated chords, triangle wave steady bass line, noise channel gentle rhythm, reflective A-melo, building B-melo, satisfying chorus, warm resolution, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, dark, intense",
       "duration": 60,
       "model": "medium",
@@ -585,7 +585,7 @@
     },
     {
       "name": "lap_pillow",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, intimate lap pillow scene, D-flat major, 72 BPM, square wave lead melody with soft warm phrases, square wave gentle counter-melody and arpeggiated chords, triangle wave slow bass line, noise channel heartbeat rhythm, tender A-melo, warm B-melo, intimate chorus, lying on lap, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, intimate lap pillow scene, D-flat major, 89 BPM, square wave lead melody with soft warm phrases, square wave gentle counter-melody and arpeggiated chords, triangle wave slow bass line, noise channel heartbeat rhythm, tender A-melo, warm B-melo, intimate chorus, lying on lap, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
       "duration": 50,
       "model": "medium",
@@ -595,7 +595,7 @@
     },
     {
       "name": "back_hug",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, back hug surprise, E major, 82 BPM, square wave lead melody with surprising warm phrases, square wave swelling harmony and arpeggiated chords, triangle wave warm bass line, noise channel soft rhythm, surprising A-melo, tender B-melo, warm chorus, embrace from behind, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, back hug surprise, E major, 99 BPM, square wave lead melody with surprising warm phrases, square wave swelling harmony and arpeggiated chords, triangle wave warm bass line, noise channel soft rhythm, surprising A-melo, tender B-melo, warm chorus, embrace from behind, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
       "duration": 45,
       "model": "medium",
@@ -605,7 +605,7 @@
     },
     {
       "name": "massage",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, massage scene, G major, 70 BPM, square wave lead melody with slow relaxing phrases, square wave warm harmony and arpeggiated chords, triangle wave rhythmic bass line, noise channel soft pulse rhythm, relaxing A-melo, tension-releasing B-melo, warm chorus, intimate relaxation, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, massage scene, G major, 85 BPM, square wave lead melody with slow relaxing phrases, square wave warm harmony and arpeggiated chords, triangle wave rhythmic bass line, noise channel soft pulse rhythm, relaxing A-melo, tension-releasing B-melo, warm chorus, intimate relaxation, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, intense",
       "duration": 45,
       "model": "medium",
@@ -615,7 +615,7 @@
     },
     {
       "name": "bath_together",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, bath together, F-sharp major, 74 BPM, square wave lead melody with warm slightly nervous phrases, square wave steamy harmony and arpeggiated chords, triangle wave smooth bass line, noise channel water-like rhythm, nervous A-melo, intimate B-melo, warm chorus, steamy atmosphere, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, bath together, F-sharp major, 93 BPM, square wave lead melody with warm slightly nervous phrases, square wave steamy harmony and arpeggiated chords, triangle wave smooth bass line, noise channel water-like rhythm, nervous A-melo, intimate B-melo, warm chorus, steamy atmosphere, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, intense, dark",
       "duration": 50,
       "model": "medium",
@@ -625,7 +625,7 @@
     },
     {
       "name": "night_visit",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, late night visit, A minor, 80 BPM, square wave lead melody with quiet sneaky phrases, square wave nervous harmony and arpeggiated chords, triangle wave tiptoeing bass line, noise channel stealthy rhythm, sneaky A-melo, nervous B-melo, tender chorus, nighttime anticipation, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, late night visit, A minor, 95 BPM, square wave lead melody with quiet sneaky phrases, square wave nervous harmony and arpeggiated chords, triangle wave tiptoeing bass line, noise channel stealthy rhythm, sneaky A-melo, nervous B-melo, tender chorus, nighttime anticipation, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, loud, fast, bright",
       "duration": 50,
       "model": "medium",
@@ -635,7 +635,7 @@
     },
     {
       "name": "morning_bed",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, waking up in same bed, C major, 68 BPM, square wave lead melody with sleepy confused phrases, square wave warm hazy harmony and arpeggiated chords, triangle wave slow bass line, noise channel barely-there rhythm, sleepy A-melo, confused B-melo, warm embarrassed chorus, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, waking up in same bed, C major, 86 BPM, square wave lead melody with sleepy confused phrases, square wave warm hazy harmony and arpeggiated chords, triangle wave slow bass line, noise channel barely-there rhythm, sleepy A-melo, confused B-melo, warm embarrassed chorus, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, intense",
       "duration": 45,
       "model": "medium",
@@ -645,7 +645,7 @@
     },
     {
       "name": "changing_help",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, helping change clothes, E major, 110 BPM, square wave lead melody with nervous fumbling phrases, square wave shy harmony and arpeggiated chords, triangle wave quick bass line, noise channel fidgety rhythm, nervous A-melo, flustered B-melo, embarrassed chorus, awkward intimate, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, helping change clothes, E major, 125 BPM, square wave lead melody with nervous fumbling phrases, square wave shy harmony and arpeggiated chords, triangle wave quick bass line, noise channel fidgety rhythm, nervous A-melo, flustered B-melo, embarrassed chorus, awkward intimate, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, scary, serious, calm",
       "duration": 40,
       "model": "medium",
@@ -655,7 +655,7 @@
     },
     {
       "name": "drunk_tipsy",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, slightly drunk tipsy, B-flat major, 95 BPM, square wave lead melody with wobbly unsteady phrases, square wave fuzzy harmony and arpeggiated chords, triangle wave loose bass line, noise channel unsteady rhythm, wobbly A-melo, fuzzy B-melo, playful loose chorus, dizzy and uninhibited, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, slightly drunk tipsy, B-flat major, 110 BPM, square wave lead melody with wobbly unsteady phrases, square wave fuzzy harmony and arpeggiated chords, triangle wave loose bass line, noise channel unsteady rhythm, wobbly A-melo, fuzzy B-melo, playful loose chorus, dizzy and uninhibited, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, dark, scary, intense",
       "duration": 45,
       "model": "medium",
@@ -665,7 +665,7 @@
     },
     {
       "name": "tickle",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, tickling scene, G major, 135 BPM, square wave lead melody with fast laughing phrases, square wave playful harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel energetic percussion, fast playful A-melo, squirming B-melo, laughing chorus, close body contact, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, tickling scene, G major, 145 BPM, square wave lead melody with fast laughing phrases, square wave playful harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel energetic percussion, fast playful A-melo, squirming B-melo, laughing chorus, close body contact, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, sad, serious, slow",
       "duration": 35,
       "model": "medium",
@@ -675,7 +675,7 @@
     },
     {
       "name": "blindfold",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, blindfold scene, F minor, 76 BPM, square wave lead melody with mysterious anticipating phrases, square wave ethereal harmony and arpeggiated chords, triangle wave slow pulsing bass line, noise channel tense soft rhythm, mysterious A-melo, anticipating B-melo, heightened senses chorus, nervous excitement, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, blindfold scene, F minor, 92 BPM, square wave lead melody with mysterious anticipating phrases, square wave ethereal harmony and arpeggiated chords, triangle wave slow pulsing bass line, noise channel tense soft rhythm, mysterious A-melo, anticipating B-melo, heightened senses chorus, nervous excitement, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, bright, cheerful",
       "duration": 45,
       "model": "medium",
@@ -685,7 +685,7 @@
     },
     {
       "name": "ambiguous",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, ambiguous atmosphere, B minor, 84 BPM, square wave lead melody with uncertain swaying phrases, square wave hesitant harmony and arpeggiated chords, triangle wave uncertain bass line, noise channel subtle rhythm, uncertain A-melo, tense B-melo, will-they-wont-they chorus, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, ambiguous atmosphere, B minor, 103 BPM, square wave lead melody with uncertain swaying phrases, square wave hesitant harmony and arpeggiated chords, triangle wave uncertain bass line, noise channel subtle rhythm, uncertain A-melo, tense B-melo, will-they-wont-they chorus, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, comedic",
       "duration": 50,
       "model": "medium",
@@ -695,7 +695,7 @@
     },
     {
       "name": "skinship",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, casual skinship, A-flat major, 78 BPM, square wave lead melody with warm comfortable phrases, square wave close harmony and arpeggiated chords, triangle wave warm bass line, noise channel gentle rhythm, warm A-melo, comfortable B-melo, natural closeness chorus, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, casual skinship, A-flat major, 96 BPM, square wave lead melody with warm comfortable phrases, square wave close harmony and arpeggiated chords, triangle wave warm bass line, noise channel gentle rhythm, warm A-melo, comfortable B-melo, natural closeness chorus, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
       "duration": 45,
       "model": "medium",
@@ -705,7 +705,7 @@
     },
     {
       "name": "temptation",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, subtle temptation, E minor, 82 BPM, square wave lead melody with slow seductive phrases, square wave alluring harmony and arpeggiated chords, triangle wave sultry bass line, noise channel subtle rhythm, seductive A-melo, alluring B-melo, dangerous attraction chorus, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, subtle temptation, E minor, 99 BPM, square wave lead melody with slow seductive phrases, square wave alluring harmony and arpeggiated chords, triangle wave sultry bass line, noise channel subtle rhythm, seductive A-melo, alluring B-melo, dangerous attraction chorus, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, loud, fast, cheerful",
       "duration": 50,
       "model": "medium",
@@ -715,7 +715,7 @@
     },
     {
       "name": "wet_hair",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, wet hair after bath, D major, 76 BPM, square wave lead melody with fresh intimate phrases, square wave warm harmony and arpeggiated chords, triangle wave gentle bass line, noise channel dripping rhythm, fresh A-melo, intimate B-melo, alluring chorus, close proximity, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, wet hair after bath, D major, 92 BPM, square wave lead melody with fresh intimate phrases, square wave warm harmony and arpeggiated chords, triangle wave gentle bass line, noise channel dripping rhythm, fresh A-melo, intimate B-melo, alluring chorus, close proximity, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
       "duration": 45,
       "model": "medium",
@@ -725,7 +725,7 @@
     },
     {
       "name": "measurement",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, taking measurements, F major, 108 BPM, square wave lead melody with nervous measuring phrases, square wave shy harmony and arpeggiated chords, triangle wave quick bass line, noise channel fidgety rhythm, nervous A-melo, flustered B-melo, embarrassed chorus, tape measure closeness, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, taking measurements, F major, 126 BPM, square wave lead melody with nervous measuring phrases, square wave shy harmony and arpeggiated chords, triangle wave quick bass line, noise channel fidgety rhythm, nervous A-melo, flustered B-melo, embarrassed chorus, tape measure closeness, retro video game",
       "negative_prompt": "vocals, realistic instruments, dark, scary, serious, calm",
       "duration": 40,
       "model": "medium",
@@ -735,7 +735,7 @@
     },
     {
       "name": "sleep_together",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sleeping together in same bed, G major, 65 BPM, square wave lead melody with very soft innocent phrases, square wave warm close harmony and arpeggiated chords, triangle wave breathing bass line, noise channel barely-there rhythm, innocent A-melo, nervous B-melo, comfortable chorus, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sleeping together in same bed, G major, 80 BPM, square wave lead melody with very soft innocent phrases, square wave warm close harmony and arpeggiated chords, triangle wave breathing bass line, noise channel barely-there rhythm, innocent A-melo, nervous B-melo, comfortable chorus, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, intense",
       "duration": 50,
       "model": "medium",
@@ -745,7 +745,7 @@
     },
     {
       "name": "accidental_touch",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, accidental touch moment, C major to A minor, 90 BPM, square wave lead melody with sudden surprise phrases, square wave frozen harmony and arpeggiated chords, triangle wave stopped bass line, noise channel paused rhythm, surprising A-melo, frozen B-melo, lingering warm chorus, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, accidental touch moment, C major to A minor, 105 BPM, square wave lead melody with sudden surprise phrases, square wave frozen harmony and arpeggiated chords, triangle wave stopped bass line, noise channel paused rhythm, surprising A-melo, frozen B-melo, lingering warm chorus, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, loud, dark, comedic",
       "duration": 40,
       "model": "medium",
@@ -755,7 +755,7 @@
     },
     {
       "name": "just_bathed",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, just out of bath, E-flat major, 78 BPM, square wave lead melody with fresh warm phrases, square wave steamy harmony and arpeggiated chords, triangle wave smooth bass line, noise channel soft dripping rhythm, fresh A-melo, alluring B-melo, warm chorus, towel and bare shoulders, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, just out of bath, E-flat major, 96 BPM, square wave lead melody with fresh warm phrases, square wave steamy harmony and arpeggiated chords, triangle wave smooth bass line, noise channel soft dripping rhythm, fresh A-melo, alluring B-melo, warm chorus, towel and bare shoulders, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
       "duration": 45,
       "model": "medium",
@@ -765,7 +765,7 @@
     },
     {
       "name": "lap_pillow_awake",
-      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, lap pillow cannot sleep, B-flat major, 75 BPM, square wave lead melody with restless nervous phrases, square wave warm harmony and arpeggiated chords, triangle wave gentle bass line, noise channel heartbeat rhythm, restless A-melo, nervous B-melo, racing heart chorus, looking up at face, retro video game",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, lap pillow cannot sleep, B-flat major, 90 BPM, square wave lead melody with restless nervous phrases, square wave warm harmony and arpeggiated chords, triangle wave gentle bass line, noise channel heartbeat rhythm, restless A-melo, nervous B-melo, racing heart chorus, looking up at face, retro video game",
       "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, intense",
       "duration": 50,
       "model": "medium",
