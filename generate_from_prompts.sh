@@ -16,8 +16,8 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 APP_DIR="${SCRIPT_DIR}/app"
 VENV_PYTHON="${APP_DIR}/.venv-gen/bin/python"
-PROMPTS_FILE="${SCRIPT_DIR}/data/input/orusuban1.json"
-OUTPUT_DIR="${SCRIPT_DIR}/data/output/orusuban1_v2"
+PROMPTS_FILE="${SCRIPT_DIR}/data/input/orusuban2.json"
+OUTPUT_DIR="${SCRIPT_DIR}/data/output/orusuban7"
 API_BASE="http://127.0.0.1:7860"
 
 # ── 引数パース ────────────────────────────────────
