@@ -866,16 +866,6 @@
       "seed": -1
     },
     {
-      "name": "character/gasp",
-      "prompt": "TrackType: SFX. 8-bit short gasp sound, quick square wave noise burst, GBA style, surprise reaction, brief startle, retro game",
-      "negative_prompt": "music, realistic, long, calm",
-      "duration": 1,
-      "model": "medium",
-      "steps": 8,
-      "cfg_scale": 1.0,
-      "seed": -1
-    },
-    {
       "name": "character/rustle",
       "prompt": "TrackType: SFX. 8-bit fabric rustling sound, brief soft noise channel, GBA style, clothing movement, short textured noise, retro game",
       "negative_prompt": "music, realistic, long, loud",
@@ -920,16 +910,6 @@
       "prompt": "TrackType: SFX. 8-bit cute girl laugh, soft high square wave giggling, cheerful and gentle, GBA style, anime style, brief, retro game",
       "negative_prompt": "music, realistic, long, dark, harsh, male",
       "duration": 2,
-      "model": "medium",
-      "steps": 8,
-      "cfg_scale": 1.0,
-      "seed": -1
-    },
-    {
-      "name": "character/sigh",
-      "prompt": "TrackType: SFX. 8-bit gentle sigh sound, soft descending triangle wave, GBA style, relief or contentment, brief breath, retro game",
-      "negative_prompt": "music, realistic, long, loud, harsh",
-      "duration": 1,
       "model": "medium",
       "steps": 8,
       "cfg_scale": 1.0,
@@ -996,9 +976,59 @@
       "seed": -1
     },
     {
-      "name": "character/breathing_soft",
-      "prompt": "TrackType: SFX. 8-bit soft breathing sound, gentle sine wave inhale and exhale, GBA style, calm and intimate, slow breathing, retro game",
-      "negative_prompt": "music, realistic, long, loud, harsh, fast",
+      "name": "character/boy_gasp",
+      "prompt": "TrackType: SFX. 8-bit short male gasp sound, quick square wave noise burst with slightly lower pitch, GBA style, boy surprise reaction, brief startle, retro game",
+      "negative_prompt": "music, realistic, long, calm, feminine",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/boy_sigh",
+      "prompt": "TrackType: SFX. 8-bit gentle male sigh sound, soft descending triangle wave with slightly lower register, GBA style, boy relief or contentment, brief breath, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, feminine",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/boy_breathing_soft",
+      "prompt": "TrackType: SFX. 8-bit soft male breathing sound, gentle sine wave inhale and exhale with slightly lower tone, GBA style, calm and intimate, slow breathing, boy character, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, fast, feminine",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/girl_gasp",
+      "prompt": "TrackType: SFX. 8-bit short girl gasp sound, quick square wave noise burst with higher pitch, GBA style, cute girl surprise reaction, brief startle, retro game",
+      "negative_prompt": "music, realistic, long, calm, masculine",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/girl_sigh",
+      "prompt": "TrackType: SFX. 8-bit gentle girl sigh sound, soft descending triangle wave with higher register, GBA style, girl relief or contentment, cute brief breath, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, masculine",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/girl_breathing_soft",
+      "prompt": "TrackType: SFX. 8-bit soft girl breathing sound, gentle sine wave inhale and exhale with higher delicate tone, GBA style, calm and intimate, slow breathing, cute girl character, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, fast, masculine",
       "duration": 3,
       "model": "medium",
       "steps": 8,
@@ -1396,16 +1426,6 @@
       "seed": -1
     },
     {
-      "name": "intimate/breathing_heavy",
-      "prompt": "TrackType: SFX. 8-bit slightly heavy breathing, soft quick sine wave inhale exhale pattern, GBA style, nervous or excited, close intimate atmosphere, retro game",
-      "negative_prompt": "music, realistic, long, loud, harsh",
-      "duration": 3,
-      "model": "medium",
-      "steps": 8,
-      "cfg_scale": 1.0,
-      "seed": -1
-    },
-    {
       "name": "intimate/clothes_slip",
       "prompt": "TrackType: SFX. 8-bit clothing slipping off sound, soft sliding noise channel, brief gentle rustle, GBA style, retro game",
       "negative_prompt": "music, realistic, long, loud, harsh",
@@ -1496,16 +1516,6 @@
       "seed": -1
     },
     {
-      "name": "intimate/soft_gasp",
-      "prompt": "TrackType: SFX. 8-bit soft small gasp, quick gentle sine wave breath, surprised reaction, GBA style, close intimate moment, retro game",
-      "negative_prompt": "music, realistic, long, loud, harsh",
-      "duration": 1,
-      "model": "medium",
-      "steps": 8,
-      "cfg_scale": 1.0,
-      "seed": -1
-    },
-    {
       "name": "intimate/heartbeat_fast",
       "prompt": "TrackType: SFX. 8-bit fast heartbeat, rapid double square wave thump pattern, GBA style, racing pulse, nervous excitement, retro game",
       "negative_prompt": "music, realistic, melody, long, harsh",
@@ -1539,6 +1549,46 @@
       "name": "intimate/glasses_remove",
       "prompt": "TrackType: SFX. 8-bit glasses removal sound, gentle square wave click, brief subtle, GBA style, intimate reveal moment, retro game",
       "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/boy_breathing_heavy",
+      "prompt": "TrackType: SFX. 8-bit slightly heavy male breathing, soft quick sine wave inhale exhale pattern with lower pitch, GBA style, nervous or excited boy, close intimate atmosphere, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, feminine",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/boy_soft_gasp",
+      "prompt": "TrackType: SFX. 8-bit soft small male gasp, quick gentle sine wave breath with lower register, surprised reaction, GBA style, close intimate moment, boy character, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, feminine",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/girl_breathing_heavy",
+      "prompt": "TrackType: SFX. 8-bit slightly heavy girl breathing, soft quick sine wave inhale exhale pattern with higher delicate pitch, GBA style, nervous or excited girl, close intimate atmosphere, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, masculine",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/girl_soft_gasp",
+      "prompt": "TrackType: SFX. 8-bit soft small girl gasp, quick gentle sine wave breath with higher register, surprised reaction, GBA style, close intimate moment, cute girl character, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, masculine",
       "duration": 1,
       "model": "medium",
       "steps": 8,

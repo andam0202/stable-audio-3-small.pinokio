@@ -866,16 +866,6 @@
       "seed": -1
     },
     {
-      "name": "character/gasp",
-      "prompt": "TrackType: SFX. A brief 8-bit surprise gasp reaction sound. A quick square wave noise burst with sharp attack and quick decay, like a GBA-era anime-style startle response. A short surprised reaction indicating shock or realization. 44.1k Hz.",
-      "negative_prompt": "music, realistic, long, calm",
-      "duration": 1,
-      "model": "medium",
-      "steps": 8,
-      "cfg_scale": 1.0,
-      "seed": -1
-    },
-    {
       "name": "character/rustle",
       "prompt": "TrackType: SFX. A brief 8-bit fabric clothing rustling sound. A short soft noise channel texture like clothing movement in a GBA-era game. A quick textured fabric rustle indicating character movement or adjusting clothes. 44.1k Hz.",
       "negative_prompt": "music, realistic, long, loud",
@@ -920,16 +910,6 @@
       "prompt": "TrackType: SFX. A cute 8-bit anime girl laughing sound. Soft high square wave giggling tones with cheerful and gentle character, like a GBA-era anime-style girl laughing. A brief warm giggle full of cheerful personality. 44.1k Hz.",
       "negative_prompt": "music, realistic, long, dark, harsh, male",
       "duration": 2,
-      "model": "medium",
-      "steps": 8,
-      "cfg_scale": 1.0,
-      "seed": -1
-    },
-    {
-      "name": "character/sigh",
-      "prompt": "TrackType: SFX. A gentle 8-bit sigh sound. A soft descending triangle wave breath release, like a GBA-era character expressing relief or contentment. A brief gentle descending breath indicating relaxation or mild exasperation. 44.1k Hz.",
-      "negative_prompt": "music, realistic, long, loud, harsh",
-      "duration": 1,
       "model": "medium",
       "steps": 8,
       "cfg_scale": 1.0,
@@ -996,9 +976,59 @@
       "seed": -1
     },
     {
-      "name": "character/breathing_soft",
-      "prompt": "TrackType: SFX. A calm 8-bit soft breathing sound. Gentle sine wave inhale and exhale cycle with calm intimate character, like a GBA-era quiet peaceful moment. A slow breathing pattern indicating calm relaxation or intimate closeness. 44.1k Hz.",
-      "negative_prompt": "music, realistic, long, loud, harsh, fast",
+      "name": "character/boy_gasp",
+      "prompt": "TrackType: SFX. A brief 8-bit male surprise gasp reaction sound. A quick square wave noise burst with sharp attack, quick decay, and slightly lower pitch register, like a GBA-era anime-style boy character startle response. A short surprised reaction indicating shock or realization from a young male character. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, calm, feminine, high pitch",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/boy_sigh",
+      "prompt": "TrackType: SFX. A gentle 8-bit male sigh sound. A soft descending triangle wave breath release with slightly lower register, like a GBA-era boy character expressing relief or contentment. A brief gentle descending breath indicating relaxation or mild exasperation from a young male. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, feminine, high pitch",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/boy_breathing_soft",
+      "prompt": "TrackType: SFX. A calm 8-bit soft male breathing sound. Gentle sine wave inhale and exhale cycle with calm intimate character and slightly lower tone, like a GBA-era quiet peaceful moment with a boy character. A slow breathing pattern indicating calm relaxation or intimate closeness. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, fast, feminine, high pitch",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/girl_gasp",
+      "prompt": "TrackType: SFX. A brief 8-bit cute girl surprise gasp reaction sound. A quick square wave noise burst with sharp attack, quick decay, and slightly higher delicate pitch, like a GBA-era anime-style girl character startle response. A short surprised reaction indicating shock or realization from a cute female character. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, calm, masculine, low pitch",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/girl_sigh",
+      "prompt": "TrackType: SFX. A gentle 8-bit cute girl sigh sound. A soft descending triangle wave breath release with higher delicate register, like a GBA-era girl character expressing relief or contentment. A brief gentle descending breath indicating relaxation or mild exasperation from a cute female. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, masculine, low pitch",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/girl_breathing_soft",
+      "prompt": "TrackType: SFX. A calm 8-bit soft girl breathing sound. Gentle sine wave inhale and exhale cycle with calm intimate character and higher delicate tone, like a GBA-era quiet peaceful moment with a cute girl character. A slow breathing pattern indicating calm relaxation or intimate closeness. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, fast, masculine, low pitch",
       "duration": 3,
       "model": "medium",
       "steps": 8,
@@ -1396,16 +1426,6 @@
       "seed": -1
     },
     {
-      "name": "intimate/breathing_heavy",
-      "prompt": "TrackType: SFX. A nervous excited 8-bit slightly heavy breathing sound. Quick soft sine wave inhale-exhale pattern with close intimate character, like a GBA-era nervous intimate anime moment. A rapid breathing cycle for nervous excitement or intimate closeness. 44.1k Hz.",
-      "negative_prompt": "music, realistic, long, loud, harsh",
-      "duration": 3,
-      "model": "medium",
-      "steps": 8,
-      "cfg_scale": 1.0,
-      "seed": -1
-    },
-    {
       "name": "intimate/clothes_slip",
       "prompt": "TrackType: SFX. A brief gentle 8-bit clothing slipping off sound. A soft sliding noise channel with brief gentle character, like a GBA-era intimate anime scene. A short gentle fabric slide for clothing removal moment. 44.1k Hz.",
       "negative_prompt": "music, realistic, long, loud, harsh",
@@ -1496,16 +1516,6 @@
       "seed": -1
     },
     {
-      "name": "intimate/soft_gasp",
-      "prompt": "TrackType: SFX. A brief soft surprised 8-bit gasp sound. A quick gentle sine wave breath with surprised intimate character, like a GBA-era close surprised anime moment. A brief soft breath intake for intimate surprise reaction. 44.1k Hz.",
-      "negative_prompt": "music, realistic, long, loud, harsh",
-      "duration": 1,
-      "model": "medium",
-      "steps": 8,
-      "cfg_scale": 1.0,
-      "seed": -1
-    },
-    {
       "name": "intimate/heartbeat_fast",
       "prompt": "TrackType: SFX. A rapid nervous 8-bit fast heartbeat sound. Rapid double square wave thump pattern with racing excited character, like a GBA-era nervous excitement anime moment. A fast double-pulse heartbeat for racing pulse and nervous excitement. 44.1k Hz.",
       "negative_prompt": "music, realistic, melody, long, harsh",
@@ -1539,6 +1549,46 @@
       "name": "intimate/glasses_remove",
       "prompt": "TrackType: SFX. A gentle subtle 8-bit glasses removal sound. A gentle square wave click with intimate reveal character, like a GBA-era anime character removing glasses moment. A brief subtle click for glasses removal reveal. 44.1k Hz.",
       "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/boy_breathing_heavy",
+      "prompt": "TrackType: SFX. A nervous excited 8-bit slightly heavy male breathing sound. Quick soft sine wave inhale-exhale pattern with close intimate character and lower pitch, like a GBA-era nervous intimate anime moment with a boy character. A rapid breathing cycle for nervous excitement or intimate closeness. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, feminine, high pitch",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/boy_soft_gasp",
+      "prompt": "TrackType: SFX. A brief soft surprised 8-bit male gasp sound. A quick gentle sine wave breath with surprised intimate character and lower register, like a GBA-era close surprised anime moment with a boy character. A brief soft breath intake for intimate surprise reaction. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, feminine, high pitch",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/girl_breathing_heavy",
+      "prompt": "TrackType: SFX. A nervous excited 8-bit slightly heavy girl breathing sound. Quick soft sine wave inhale-exhale pattern with close intimate character and higher delicate pitch, like a GBA-era nervous intimate anime moment with a cute girl character. A rapid breathing cycle for nervous excitement or intimate closeness. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, masculine, low pitch",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/girl_soft_gasp",
+      "prompt": "TrackType: SFX. A brief soft surprised 8-bit cute girl gasp sound. A quick gentle sine wave breath with surprised intimate character and higher delicate register, like a GBA-era close surprised anime moment with a cute girl character. A brief soft breath intake for intimate surprise reaction. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, masculine, low pitch",
       "duration": 1,
       "model": "medium",
       "steps": 8,
