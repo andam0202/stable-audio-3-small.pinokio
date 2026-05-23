@@ -17,7 +17,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 APP_DIR="${SCRIPT_DIR}/app"
 VENV_PYTHON="${APP_DIR}/.venv-gen/bin/python"
 PROMPTS_FILE="${SCRIPT_DIR}/data/input/orusuban3.json"
-OUTPUT_DIR="${SCRIPT_DIR}/data/output/orusuban3"
+OUTPUT_DIR="${SCRIPT_DIR}/data/output/orusuban4"
 API_BASE="http://127.0.0.1:7860"
 
 # ── 引数パース ────────────────────────────────────
