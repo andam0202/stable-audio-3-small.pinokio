@@ -1,0 +1,1549 @@
+{
+  "_comment": "orusuban用 Stable Audio 3 プロンプト定義 v2 - Tips準拠自然文プロンプト",
+  "_usage": "bash generate_from_prompts.sh          (全生成) / bash generate_from_prompts.sh bgm/title  (個別)",
+  "_api": "http://127.0.0.1:7860",
+  "bgm": [
+    {
+      "name": "title",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A dreamy fluffy chiptune track titled 'Cloud Cradle', featuring a bright square wave lead solo playing gentle flowing melody phrases with tender warmth. Supported by soft arpeggiated counter-melody, warm triangle wave bass, and gentle noise channel rhythm. The mood is cozy, inviting, and nostalgic. Well-arranged composition with a swelling emotional B-section and warm chorus resolution. Floating on clouds atmosphere. 88 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, intense, distortion, heavy bass, dark",
+      "duration": 90,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "opening",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A cheerful energetic chiptune track titled 'Brand New Morning', featuring a catchy square wave lead solo playing bright memorable melody with playful bounce. Supported by sparkling arpeggiated harmony, walking triangle wave bass, and upbeat noise channel percussion. The mood is optimistic, lively, and heartwarming. Well-arranged composition with a catchy A-section, lively bridge, and memorable chorus hook. Morning sunshine and new beginnings. 130 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, slow, sad, ambient",
+      "duration": 60,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "daily_morning",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A bright cheerful chiptune track titled 'Sunshine Breeze', featuring a bouncy square wave lead solo playing cheerful melodic phrases full of morning energy. Supported by warm arpeggiated chords, bouncy triangle wave bass, and light noise channel rhythm. The mood is bright, energetic, and happy. Well-arranged composition with catchy melodic variations and a lively chorus. Waking up to sunshine slice of life feeling. 110 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, aggressive, fast, intense",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "daily_afternoon",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A relaxed warm chiptune track titled 'Lazy Afternoon', featuring a gentle square wave lead solo playing flowing melodic phrases with easygoing warmth. Supported by soft arpeggiated counter-melody, smooth triangle wave bass, and gentle noise channel rhythm. The mood is peaceful, warm, and content. Well-arranged composition with a gentle A-section, warm B-section, and serene chorus. Lazy sunshine easygoing day. 85 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, energetic, fast, intense, aggressive",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "school",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. An energetic chiptune track titled 'Campus Rush', featuring a quick playful square wave lead solo playing lively melody phrases with youthful bounce. Supported by fast arpeggiated harmony, driving triangle wave bass, and busy noise channel percussion. The mood is bustling, youthful, and spirited. Well-arranged composition with catchy variations and an exciting chorus. Anime school hallway running feeling. 130 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, slow, ambient, scary",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "library",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Solo. A quiet intimate chiptune track titled 'Quiet Pages', featuring a delicate square wave lead solo playing gentle sparse melody phrases with care. Supported by soft arpeggiated chords, quiet triangle wave bass, and barely-there noise channel rhythm. The mood is calm, warm, and studious. Well-arranged composition with tender melodic development. Studying together in warm library lighting. 72 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, loud, fast, aggressive, energetic",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "rooftop",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A contemplative soaring chiptune track titled 'Skyline Daydream', featuring an airy square wave lead solo playing soaring melody phrases that feel like looking at open sky. Supported by floating arpeggiated counter-melody, gentle triangle wave bass, and soft breeze-like noise channel rhythm. The mood is freeing, contemplative, and emotional. Well-arranged composition with an emotional rise. Anime rooftop moment feeling. 90 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, aggressive, heavy, intense",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "sunset",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A warm nostalgic chiptune track titled 'Golden Farewell', featuring a warm square wave lead solo playing descending golden melody phrases with gentle nostalgia. Supported by golden arpeggiated harmony, warm triangle wave bass, and gentle noise channel rhythm. The mood is peaceful, nostalgic, and bittersweet. Well-arranged composition with a warm resolution chorus. Golden hour day ending feeling. 80 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, fast, aggressive, energetic",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "cooking",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A fun bouncy chiptune track titled 'Kitchen Dance', featuring a playful square wave lead solo bouncing through cheerful catchy melody phrases. Supported by bright arpeggiated harmony, bouncy triangle wave bass, and lively noise channel percussion. The mood is cheerful, playful, and heartwarming. Well-arranged composition with melodic variations. Kitchen happiness cooking together feeling. 115 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, intense, scary, sad",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "cooking_together",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A warm romantic chiptune track titled 'Recipe for Two', featuring a playful duet-style square wave lead solo with call-and-response melody phrases. Supported by warm arpeggiated harmony, gentle triangle wave bass, and light noise channel percussion. The mood is intimate, joyful, and playful. Well-arranged composition with a warm resolution chorus. Romantic cooking together domestic scene. 108 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, intense, scary, sad, lonely",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "shopping",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A fun bouncy chiptune track titled 'Market Stroll', featuring a catchy square wave lead solo playing bright bouncing melody phrases full of carefree energy. Supported by bright arpeggiated harmony, walking triangle wave bass, and cheerful noise channel percussion. The mood is lighthearted, playful, and bouncy. Well-arranged composition with a lively chorus. Fun shopping trip together feeling. 120 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, slow, sad, intense",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "cafe",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A cozy warm chiptune track titled 'Warm Cups', featuring a gentle swaying square wave lead solo playing warm intimate melody phrases. Supported by warm arpeggiated harmony, smooth triangle wave bass, and soft brush-like noise channel rhythm. The mood is intimate, relaxed, and warm. Well-arranged composition with gentle melodic development. Cozy cafe conversation mood. 82 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, loud, aggressive, fast, intense",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "studying",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A focused determined chiptune track titled 'Focused Mind', featuring a steady square wave lead solo playing repetitive building melody phrases with quiet determination. Supported by steady arpeggiated harmony, grounded triangle wave bass, and minimal noise channel rhythm. The mood is concentrated, calm, and determined. Well-arranged composition with gradual emotional build. Quiet studying concentration feeling. 78 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, loud, fast, aggressive, distracting",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "nap",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Solo. A peaceful dreamy chiptune track titled 'Drifting Off', featuring a very soft square wave lead solo playing drifting lullaby-like melody phrases. Supported by dreamy slow arpeggiated harmony, gentle triangle wave bass, and barely-there noise channel rhythm. The mood is peaceful, warm, and sleepy. Well-arranged composition with floating gentle development. Warm blanket nap time feeling. 68 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, loud, fast, energetic, intense, percussion",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "sweet_moment",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A tender romantic chiptune track titled 'Cotton Candy Heart', featuring a warm emotional square wave lead solo playing tender swelling melody phrases. Supported by warm arpeggiated counter-melody, moving triangle wave bass, and soft noise channel rhythm. The mood is romantic, tender, and sweet. Well-arranged composition with an emotional rise B-section and warm resolution chorus. Love scene romantic anime moment. 95 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, dark, intense",
+      "duration": 55,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "confession",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. An emotional vulnerable chiptune track titled 'Words Unspoken', featuring a nervous-to-warm square wave lead solo playing trembling melody that gradually gains confidence and warmth. Supported by trembling arpeggiated harmony, pulsing triangle wave bass, and heartbeat-like noise channel rhythm. The mood is vulnerable, nervous, and hopeful. Well-arranged composition building from tension to warm emotional release. Confession scene anime feeling. 88 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, comedic, fast, dark",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "dokidoki",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A tense anticipatory chiptune track titled 'Heartbeat Suspense', featuring a pulsing square wave lead solo playing tense staccato melody phrases with building urgency. Supported by staccato arpeggiated harmony, driving triangle wave bass, and quick tense noise channel rhythm. The mood is tense, anticipatory, and thrilling. Well-arranged composition with ascending tension building to dramatic peak. Heartbeat-like doki-doki anticipation feeling. 115 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, calm, slow, peaceful, ambient",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "first_kiss",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A magical sparkling chiptune track titled 'Starlight Collision', featuring a shimmering square wave lead solo playing ascending ethereal melody phrases with breathless wonder. Supported by ethereal arpeggiated harmony, swelling triangle wave bass, and soft shimmer noise channel rhythm. The mood is magical, tender, and breathtaking. Well-arranged composition with emotional peak. Anime romance first kiss moment. 85 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, comedic",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "mischief",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A playful mischievous chiptune track titled 'Clever Fox', featuring a cheeky square wave lead solo playing staccato sneaky melody phrases with sassy attitude. Supported by sneaky arpeggiated harmony, bouncy triangle wave bass, and playful noise channel percussion. The mood is playful, cheeky, and fun. Well-arranged composition with quick melodic turns. Comedy mischief anime scene. 120 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, scary, slow, serious",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "comedy",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A silly slapstick chiptune track titled 'Chaos Parade', featuring a wacky square wave lead solo playing fast bouncing chaotic melody phrases with comedic energy. Supported by wacky arpeggiated harmony, galloping triangle wave bass, and energetic noise channel percussion. The mood is chaotic, silly, and hilarious. Well-arranged composition with rapid unexpected melodic turns. Anime slapstick comedy scene. 135 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, serious, sad, dark, romantic",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jealousy",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. An uneasy tense chiptune track titled 'Green-Eyed Storm', featuring a staccato uneasy square wave lead solo playing dissonant melody phrases with jealous edge. Supported by dissonant arpeggiated harmony, restless triangle wave bass, and tense noise channel rhythm. The mood is uneasy, possessive, and intense. Well-arranged composition with darker emotional development. Jealous tension anime scene. 105 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, cheerful, happy, calm, peaceful",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "love_triangle",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A bittersweet conflicted chiptune track titled 'Three Hearts', featuring an emotional square wave lead solo playing bittersweet conflicting melody phrases with complex feelings. Supported by conflicting arpeggiated harmony, uneasy triangle wave bass, and subtle noise channel rhythm. The mood is bittersweet, conflicted, and emotional. Well-arranged composition with emotional resolution attempt. Anime love triangle drama. 92 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, cheerful, comedic, aggressive, fast",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "embarrassment",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A cute flustered chiptune track titled 'Crimson Cheeks', featuring a nervous quick square wave lead solo playing fidgety flustered melody phrases. Supported by shy arpeggiated harmony, quick triangle wave bass, and fidgety noise channel rhythm. The mood is nervous, cute, and flustered. Well-arranged composition with comedic timing. Blushing embarrassment anime moment. 125 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, scary, serious, intense",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "teasing",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A sassy playful chiptune track titled 'Knowing Smile', featuring a flirty square wave lead solo playing sassy knowing melody phrases with playful wink. Supported by knowing arpeggiated harmony, groovy triangle wave bass, and light bouncy noise channel rhythm. The mood is playful, sassy, and flirty. Well-arranged composition with cheeky melodic turns. Teasing knowing smile anime scene. 112 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, sad, serious, intense",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "night_calm",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A serene peaceful chiptune track titled 'Midnight Lullaby', featuring a soft gentle square wave lead solo playing calm ethereal melody phrases drifting through the night. Supported by ethereal arpeggiated harmony, calm triangle wave bass, and very soft noise channel rhythm. The mood is serene, dreamy, and peaceful. Well-arranged composition with gentle flowing development. Crickets and moonlight quiet night. 75 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, loud, fast, aggressive, energetic",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "night_walk",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A warm gentle chiptune track titled 'Lantern Path', featuring a swaying square wave lead solo playing warm tender melody phrases with slight mystery. Supported by warm arpeggiated harmony, walking triangle wave bass, and soft step-like noise channel rhythm. The mood is tender, warm, and slightly mysterious. Well-arranged composition with emotional warmth. Walking under stars together at night. 82 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, loud, fast, aggressive, scary",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "night_sentimental",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A melancholy emotional chiptune track titled 'Alone with the Moon', featuring a sad descending square wave lead solo playing melancholy melody phrases with deep longing. Supported by mournful arpeggiated harmony, heavy triangle wave bass, and minimal noise channel rhythm. The mood is melancholy, lonely, and contemplative. Well-arranged composition with quiet resolution. Alone with thoughts at night feeling. 72 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, cheerful, fast, energetic, happy",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "stargazing",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A wondrous sparkling chiptune track titled 'Constellation Waltz', featuring a twinkling square wave lead solo playing ethereal wondrous melody phrases that feel like looking at a vast starry sky. Supported by ethereal arpeggiated harmony, deep triangle wave bass, and shimmer noise channel rhythm. The mood is wondrous, romantic, and peaceful. Well-arranged composition with awe-inspiring development. Stargazing together romantic peace. 78 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, loud, fast, aggressive, urban",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "rainy_day",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A gentle contemplative chiptune track titled 'Window Raindrops', featuring a descending gentle square wave lead solo playing warm melancholy melody phrases with cozy undertone. Supported by warm arpeggiated harmony, steady triangle wave bass, and rain-like noise channel rhythm. The mood is cozy, contemplative, and slightly melancholy. Well-arranged composition with warm resolution. Staying inside on a rainy day feeling. 80 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, bright, energetic, fast, cheerful",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "sad",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A deeply sad chiptune track titled 'Fading Petals', featuring a slow weeping square wave lead solo playing mournful descending melody phrases with deep sorrow. Supported by mournful arpeggiated harmony, heavy triangle wave bass, and minimal noise channel rhythm. The mood is melancholy, heartbreaking, and quiet. Well-arranged composition with emotional depth and quiet resolution. Heartbreak and loss anime scene. 70 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, happy, fast, energetic, cheerful",
+      "duration": 55,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "rejection",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A painful aching chiptune track titled 'Shattered Glass', featuring a dissonant aching square wave lead solo playing harsh mourning melody phrases with deep pain. Supported by harsh arpeggiated harmony, heavy triangle wave bass, and sparse noise channel rhythm. The mood is painful, crushing, and lonely. Well-arranged composition with lonely quiet resolution. Breaking heart rejection scene. 68 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, happy, cheerful, upbeat, comedic",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "separation",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A longing farewell chiptune track titled 'Distant Trains', featuring a longing square wave lead solo playing aching melody phrases that feel like watching someone leave. Supported by distant arpeggiated harmony, fading triangle wave bass, and gentle noise channel rhythm. The mood is bittersweet, longing, and sad. Well-arranged composition with emotional farewell development. Sad separation anime scene. 75 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, cheerful, fast, energetic, comedic",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "reunion",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A joyful triumphant chiptune track titled 'Welcome Home', featuring a swelling bright square wave lead solo playing triumphant melody phrases full of relief and joy. Supported by bright arpeggiated harmony, driving triangle wave bass, and energetic noise channel percussion. The mood is joyful, triumphant, and emotional. Well-arranged composition with swelling emotional peak. Tears of happiness reunion scene. 120 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, scary, aggressive, comedic",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "apology",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A sincere humble chiptune track titled 'Honest Words', featuring a gentle sincere square wave lead solo playing humble melody phrases that gradually gain hopeful warmth. Supported by warm arpeggiated harmony, steady triangle wave bass, and soft noise channel rhythm. The mood is sincere, regretful, and hopeful. Well-arranged composition with warm resolution. Regret and hope apology scene. 82 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, comedic, fast, intense",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "promise",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A hopeful determined chiptune track titled 'Pinky Swear', featuring a determined hopeful square wave lead solo playing sincere melody phrases with warm conviction. Supported by warm arpeggiated harmony, steady triangle wave bass, and gentle noise channel rhythm. The mood is determined, hopeful, and sincere. Well-arranged composition with warm emotional resolution. Making a sincere promise anime scene. 90 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, scary, aggressive, comedic",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "climax",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. An intense dramatic chiptune track titled 'Breaking Point', featuring a powerful urgent square wave lead solo playing intense driving melody phrases with explosive energy. Supported by urgent fast arpeggiated harmony, driving triangle wave bass, and intense noise channel percussion. The mood is urgent, intense, and dramatic. Well-arranged composition with rising tension and explosive climax peak. Anime dramatic climax scene. 135 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, calm, slow, peaceful, ambient",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "horror",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A creepy unsettling chiptune track titled 'Shadow's Breath', featuring an eerie slow square wave lead solo playing unsettling melody phrases that build dread. Supported by dissonant arpeggiated harmony, low droning triangle wave bass, and eerie noise channel rhythm. The mood is dark, mysterious, and unsettling. Well-arranged composition with building dread and tense climax. Creepy horror game atmosphere. 65 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, cheerful, bright, happy, comedic",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "nightmare",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A terrifying frantic chiptune track titled 'Fever Dream', featuring a distorted frantic square wave lead solo playing chaotic melody phrases with claustrophobic intensity. Supported by dissonant arpeggiated harmony, dark triangle wave bass, and chaotic noise channel rhythm. The mood is terrifying, frantic, and claustrophobic. Well-arranged composition with escalating horror. Nightmare horror anime scene. 70 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, cheerful, bright, happy, calm",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "dream",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A surreal dreamy chiptune track titled 'Lucid Reverie', featuring a floating ethereal square wave lead solo playing drifting otherworldly melody phrases with wonder. Supported by dreamy arpeggiated harmony, drifting triangle wave bass, and soft shimmer noise channel rhythm. The mood is dreamy, mysterious, and wondrous. Well-arranged composition with floating surreal development. Surreal dream sequence anime scene. 80 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, loud, harsh, fast",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "bathroom",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A warm relaxing chiptune track titled 'Steam and Warmth', featuring a warm flowing square wave lead solo playing gentle steamy melody phrases with intimate warmth. Supported by steamy arpeggiated harmony, smooth triangle wave bass, and water-like noise channel rhythm. The mood is warm, intimate, and relaxing. Well-arranged composition with calm flowing development. Relaxing bath steamy atmosphere. 80 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, intense, dark",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "hot_spring",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A peaceful serene chiptune track titled 'Onsen Mist', featuring a gentle pentatonic square wave lead solo playing traditional Japanese-style melody phrases with peaceful warmth. Supported by traditional arpeggiated harmony, warm triangle wave bass, and soft water noise channel rhythm. The mood is peaceful, serene, and traditional. Well-arranged composition with relaxed Japanese development. Hot spring onsen traditional Japanese atmosphere. 76 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, intense, urban",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "secret_time",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A sneaky playful chiptune track titled 'Whispered Hours', featuring a quick staccato sneaky square wave lead solo playing tiptoeing melody phrases with mischievous energy. Supported by mischievous arpeggiated harmony, tiptoeing triangle wave bass, and light stealthy noise channel rhythm. The mood is sneaky, playful, and intimate. Well-arranged composition with playful development. Secret sneaky moment anime scene. 105 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, loud, slow, ambient, calm",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "warm_skin",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Solo. An intimate tender chiptune track titled 'Close Breath', featuring a very soft close square wave lead solo playing delicate breathing melody phrases with intimate warmth. Supported by warm arpeggiated counter-melody, gentle breathing triangle wave bass, and barely-there noise channel rhythm. The mood is intimate, tender, and warm. Well-arranged composition with swelling gentle emotional development. Romantic intimate atmosphere close proximity. 78 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "changing_room",
+      "prompt": "TrackType Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A flustered nervous chiptune track titled 'Red Face Dash', featuring a quick nervous square wave lead solo playing fumbling fidgety melody phrases with embarrassed energy. Supported by shy arpeggiated harmony, fidgety triangle wave bass, and quick noise channel rhythm. The mood is nervous, flustered, and cute. Well-arranged composition with comedic timing. Embarrassed changing room anime scene. 118 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, scary, serious, intense",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "pajamas",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A cozy sleepy chiptune track titled 'Sleepy Cotton', featuring a soft sleepy square wave lead solo playing gentle music-box-like melody phrases with drowsy warmth. Supported by music-box arpeggiated harmony, warm triangle wave bass, and gentle noise channel rhythm. The mood is sleepy, cozy, and intimate. Well-arranged composition with lullaby-like development. Cozy pajamas bedtime intimate feeling. 75 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, intense",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "home_alone",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Solo. A lonely quiet chiptune track titled 'Empty Echoes', featuring a sparse lonely square wave lead solo playing quiet echoing melody phrases with slight eeriness. Supported by sparse arpeggiated harmony, slow triangle wave bass, and minimal noise channel rhythm. The mood is lonely, slightly eerie, and quiet. Well-arranged composition with empty atmosphere. Empty house home alone feeling. 72 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, loud, fast, energetic",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "festival",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A festive lively chiptune track titled 'Summer Lanterns', featuring a bright pentatonic square wave lead solo playing energetic festive Japanese-style melody phrases. Supported by bright arpeggiated harmony, driving triangle wave bass, and taiko-style noise channel percussion. The mood is festive, lively, and joyful. Well-arranged composition with exciting development. Japanese summer festival matsuri atmosphere. 128 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, slow, sad, winter",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "fireworks",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A sparkling majestic chiptune track titled 'Night Bloom', featuring a soaring sparkling square wave lead solo playing ascending majestic melody phrases with wonder. Supported by majestic arpeggiated harmony, swelling triangle wave bass, and shimmering noise channel percussion. The mood is majestic, sparkling, and romantic. Well-arranged composition with emotional swelling peak. Fireworks display summer night sky. 90 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, sad, aggressive, winter",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "beach",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A bright refreshing chiptune track titled 'Ocean Spray', featuring a cheerful square wave lead solo playing bright refreshing melody phrases full of summer energy. Supported by cheerful arpeggiated harmony, bouncy triangle wave bass, and upbeat noise channel percussion. The mood is refreshing, cheerful, and summery. Well-arranged composition with lively development. Sunny beach summer vacation feeling. 125 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, cold, winter, sad",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "pool",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A splashy energetic chiptune track titled 'Splash Rush', featuring a playful square wave lead solo playing splashy energetic melody phrases with summer fun. Supported by bright arpeggiated harmony, bouncy triangle wave bass, and splashy noise channel percussion. The mood is playful, energetic, and refreshing. Well-arranged composition with fun variations. Swimming pool summer fun feeling. 120 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, sad, slow, winter",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "game_center",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. An energetic catchy chiptune track titled 'Token Heaven', featuring an electronic catchy square wave lead solo playing fast exciting melody phrases with competitive energy. Supported by bouncy arpeggiated harmony, driving triangle wave bass, and energetic noise channel percussion. The mood is exciting, catchy, and competitive. Well-arranged composition with thrilling development. Arcade game center youth excitement. 135 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, sad, slow, ambient",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "karaoke",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A fun lively chiptune track titled 'Sing Your Heart Out', featuring a catchy pop square wave lead solo playing bright fun melody phrases with singalong energy. Supported by bright arpeggiated harmony, bouncy triangle wave bass, and lively noise channel percussion. The mood is fun, cheerful, and lively. Well-arranged composition with exciting chorus. Friends karaoke room having fun. 128 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, sad, slow, intense",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "christmas",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A warm festive chiptune track titled 'Snowflake Hearth', featuring a gentle bell-like square wave lead solo playing warm festive melody phrases with cozy romance. Supported by warm arpeggiated harmony, warm triangle wave bass, and soft jingle noise channel rhythm. The mood is warm, festive, and romantic. Well-arranged composition with cozy development. Christmas romantic winter evening feeling. 85 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, aggressive, fast, scary",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "valentine",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A sweet tender chiptune track titled 'Sweet Confession', featuring a loving gentle square wave lead solo playing sweet tender melody phrases with hopeful anticipation. Supported by loving arpeggiated harmony, gentle triangle wave bass, and soft noise channel rhythm. The mood is sweet, hopeful, and loving. Well-arranged composition with warm emotional development. Valentine chocolate and anticipation anime scene. 88 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, aggressive, sad, scary",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "nostalgia",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A wistful nostalgic chiptune track titled 'Faded Photograph', featuring a slow wistful square wave lead solo playing gentle bittersweet melody phrases with warm memory. Supported by warm arpeggiated harmony, gentle triangle wave bass, and soft noise channel rhythm. The mood is wistful, bittersweet, and warm. Well-arranged composition with warm resolution. Looking back at memories nostalgic feeling. 68 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, fast, energetic, aggressive",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "gratitude",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A heartfelt uplifting chiptune track titled 'Thank You Notes', featuring a warm sincere square wave lead solo playing uplifting heartfelt melody phrases with emotional warmth. Supported by uplifting arpeggiated harmony, warm triangle wave bass, and gentle noise channel rhythm. The mood is warm, uplifting, and heartfelt. Well-arranged composition with emotional climax and warm resolution. Gratitude and thankfulness anime scene. 88 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, aggressive, fast, scary",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ending",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A bittersweet emotional chiptune track titled 'Where We Began', featuring a bittersweet emotional square wave lead solo playing warm resolution melody phrases with nostalgic closure. Supported by warm arpeggiated harmony, gentle triangle wave bass, and soft noise channel rhythm. The mood is bittersweet, emotional, and warm. Well-arranged composition with emotional climax and satisfying resolution. Anime credits roll ending theme. 95 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, dark",
+      "duration": 55,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "credits",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A reflective warm chiptune track titled 'Memories in Pixels', featuring a reflective warm square wave lead solo playing building satisfying melody phrases with gentle resolution. Supported by building arpeggiated harmony, steady triangle wave bass, and gentle noise channel rhythm. The mood is reflective, warm, and satisfying. Well-arranged composition with gradual emotional build and warm final resolution. Credit roll warm closure feeling. 92 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, dark, intense",
+      "duration": 60,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "lap_pillow",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Solo. An intimate tender chiptune track titled 'Soft Horizon', featuring a soft warm square wave lead solo playing gentle close melody phrases with heartbeat warmth. Supported by gentle arpeggiated counter-melody, slow triangle wave bass, and heartbeat noise channel rhythm. The mood is tender, intimate, and warm. Well-arranged composition with gentle swelling emotional development. Lying on lap intimate anime scene. 72 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "back_hug",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A warm surprising chiptune track titled 'Surprise Embrace', featuring a surprising warm square wave lead solo playing swelling tender melody phrases that startle then warm. Supported by swelling arpeggiated harmony, warm triangle wave bass, and soft noise channel rhythm. The mood is surprising, tender, and warm. Well-arranged composition with gentle emotional development. Back hug embrace from behind anime scene. 82 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "massage",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A relaxing intimate chiptune track titled 'Melting Tension', featuring a slow relaxing square wave lead solo playing tension-releasing melody phrases with warm comfort. Supported by warm arpeggiated harmony, rhythmic triangle wave bass, and soft pulse noise channel rhythm. The mood is relaxing, warm, and intimate. Well-arranged composition with gradual tension release. Intimate relaxation massage scene. 70 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, intense",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "bath_together",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A warm nervous-intimate chiptune track titled 'Shared Steam', featuring a warm slightly nervous square wave lead solo playing intimate melody phrases with steamy warmth. Supported by steamy arpeggiated harmony, smooth triangle wave bass, and water-like noise channel rhythm. The mood is intimate, warm, and slightly nervous. Well-arranged composition with warm emotional development. Bath together steamy intimate atmosphere. 74 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, intense, dark",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "night_visit",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A sneaky nervous chiptune track titled 'Midnight Knock', featuring a quiet sneaky square wave lead solo playing tiptoeing melody phrases with nervous anticipation. Supported by nervous arpeggiated harmony, tiptoeing triangle wave bass, and stealthy noise channel rhythm. The mood is sneaky, nervous, and tender. Well-arranged composition with gentle tender resolution. Late night visit anticipation anime scene. 80 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, loud, fast, bright",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "morning_bed",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A sleepy confused-warm chiptune track titled 'Hazy Sunrise', featuring a sleepy confused square wave lead solo playing hazy warm melody phrases that gradually wake up with gentle embarrassment. Supported by warm hazy arpeggiated harmony, slow triangle wave bass, and barely-there noise channel rhythm. The mood is sleepy, confused, and warmly embarrassed. Well-arranged composition with gentle waking development. Waking up in same bed anime scene. 68 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, intense",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "changing_help",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A nervous fumbling chiptune track titled 'Fumbling Fingers', featuring a nervous fumbling square wave lead solo playing quick embarrassed melody phrases with shy energy. Supported by shy arpeggiated harmony, quick triangle wave bass, and fidgety noise channel rhythm. The mood is nervous, flustered, and embarrassed. Well-arranged composition with comedic timing. Helping change clothes awkward intimate anime scene. 110 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, scary, serious, calm",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "drunk_tipsy",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A wobbly playful chiptune track titled 'Tipsy Wobble', featuring a wobbly unsteady square wave lead solo playing loose fuzzy melody phrases with playful unsteadiness. Supported by fuzzy arpeggiated harmony, loose triangle wave bass, and unsteady noise channel rhythm. The mood is playful, wobbly, and uninhibited. Well-arranged composition with loose fun development. Slightly drunk tipsy dizzy anime scene. 95 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, dark, scary, intense",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "tickle",
+      "prompt": "TrackType Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A fast playful chiptune track titled 'Giggle Storm', featuring a fast laughing square wave lead solo playing squirming playful melody phrases with energetic fun. Supported by playful arpeggiated harmony, bouncy triangle wave bass, and energetic noise channel percussion. The mood is playful, energetic, and laughing. Well-arranged composition with rapid playful variations. Tickling close body contact anime scene. 135 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, sad, serious, slow",
+      "duration": 35,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "blindfold",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A mysterious anticipating chiptune track titled 'Eyes Closed', featuring a mysterious slow square wave lead solo playing anticipating melody phrases with heightened senses. Supported by ethereal arpeggiated harmony, slow pulsing triangle wave bass, and tense soft noise channel rhythm. The mood is mysterious, anticipating, and nervously exciting. Well-arranged composition with building anticipation. Blindfold heightened senses anime scene. 76 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, bright, cheerful",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ambiguous",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. An uncertain tense chiptune track titled 'Will They Won't They', featuring an uncertain swaying square wave lead solo playing hesitant melody phrases with unresolved tension. Supported by hesitant arpeggiated harmony, uncertain triangle wave bass, and subtle noise channel rhythm. The mood is uncertain, tense, and romantically ambiguous. Well-arranged composition with unresolved romantic tension. Will-they-won't-they anime scene. 84 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, comedic",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "skinship",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A warm comfortable chiptune track titled 'Natural Closeness', featuring a warm comfortable square wave lead solo playing naturally close melody phrases with easy intimacy. Supported by close arpeggiated harmony, warm triangle wave bass, and gentle noise channel rhythm. The mood is warm, comfortable, and naturally close. Well-arranged composition with gentle flowing development. Casual skinship comfortable closeness anime scene. 78 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "temptation",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A subtle seductive chiptune track titled 'Dangerous Whisper', featuring a slow seductive square wave lead solo playing alluring melody phrases with sultry undertone. Supported by alluring arpeggiated harmony, sultry triangle wave bass, and subtle noise channel rhythm. The mood is seductive, alluring, and dangerous. Well-arranged composition with building subtle tension. Subtle temptation dangerous attraction anime scene. 82 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, loud, fast, cheerful",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "wet_hair",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A fresh intimate chiptune track titled 'After the Rain', featuring a fresh intimate square wave lead solo playing warm alluring melody phrases with close proximity. Supported by warm arpeggiated harmony, gentle triangle wave bass, and dripping noise channel rhythm. The mood is fresh, intimate, and alluring. Well-arranged composition with warm gentle development. Wet hair after bath close proximity anime scene. 76 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "measurement",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A nervous flustered chiptune track titled 'Tape Measure Heartbeat', featuring a nervous quick square wave lead solo playing fidgety embarrassed melody phrases with racing heart. Supported by shy arpeggiated harmony, quick triangle wave bass, and fidgety noise channel rhythm. The mood is nervous, flustered, and embarrassed. Well-arranged composition with comedic timing. Taking measurements tape measure closeness anime scene. 108 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, dark, scary, serious, calm",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "sleep_together",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Solo. A soft innocent chiptune track titled 'Shared Dreams', featuring a very soft innocent square wave lead solo playing gentle nervous melody phrases that gradually settle into comfortable warmth. Supported by warm close arpeggiated harmony, breathing triangle wave bass, and barely-there noise channel rhythm. The mood is innocent, nervous, and comfortably warm. Well-arranged composition with gentle settling development. Sleeping together in same bed anime scene. 65 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, intense",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "accidental_touch",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A surprising lingering chiptune track titled 'Electric Moment', featuring a sudden surprise square wave lead solo playing frozen lingering melody phrases with warm aftermath. Supported by frozen arpeggiated harmony, stopped triangle wave bass, and paused noise channel rhythm that gently resumes. The mood is surprising, frozen, and lingering warm. Well-arranged composition with stillness then warm resolution. Accidental touch moment anime scene. 90 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, loud, dark, comedic",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "just_bathed",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A fresh warm chiptune track titled 'Fresh Towel', featuring a fresh warm square wave lead solo playing steamy alluring melody phrases with intimate freshness. Supported by steamy arpeggiated harmony, smooth triangle wave bass, and soft dripping noise channel rhythm. The mood is fresh, alluring, and warm. Well-arranged composition with warm intimate development. Just out of bath towel and bare shoulders anime scene. 78 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "lap_pillow_awake",
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Chiptune Video Game, Format: Band. A restless nervous chiptune track titled 'Racing Heart Still Lap', featuring a restless nervous square wave lead solo playing gentle melody phrases with underlying racing heartbeat tension. Supported by warm arpeggiated harmony, gentle triangle wave bass, and heartbeat noise channel rhythm. The mood is restless, nervous, and racing heart. Well-arranged composition with gentle tension beneath calm surface. Lap pillow cannot sleep looking up anime scene. 75 BPM. 44.1k Hz, high-quality, stereo.",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, intense",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    }
+  ],
+  "sfx": [
+    {
+      "name": "ui/text_advance",
+      "prompt": "TrackType: SFX. A bright 8-bit visual novel text advance click sound. A single soft square wave blip with gentle decay, reminiscent of GBA-era game menu selections. Clean and satisfying feedback for advancing dialogue text. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, ambient, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ui/cursor",
+      "prompt": "TrackType: SFX. A quick 8-bit menu cursor move sound. A light square wave tick blip with minimal decay, like navigating options in a GBA-era retro game. Clean and responsive menu navigation feedback. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, ambient, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ui/select",
+      "prompt": "TrackType: SFX. A cheerful 8-bit menu confirm selection sound. Two ascending bright square wave tones forming a positive GBA-era feedback pair. Upbeat and satisfying confirmation for selecting a menu option. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, ambient, dark",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ui/cancel",
+      "prompt": "TrackType: SFX. A soft 8-bit menu cancel back sound. Two descending gentle square wave tones forming a GBA-era negative feedback pair. A soft bounce indicating cancellation or going back. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, ambient, happy",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ui/save",
+      "prompt": "TrackType: SFX. A satisfying 8-bit save game complete sound. Three ascending cheerful square wave tones forming a brief GBA-era positive confirmation jingle. A rewarding three-note ascending pattern indicating successful save. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, ambient, dark",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ui/transition",
+      "prompt": "TrackType: SFX. A smooth 8-bit screen transition whoosh sound. An ascending square wave pitch sweep that smoothly glides upward, like a GBA-era scene change effect. A clean digital whoosh for transitioning between screens. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, voice, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ui/flash",
+      "prompt": "TrackType: SFX. A bright 8-bit screen flash sparkle sound. A quick high-frequency square wave burst with sparkle character, like a GBA-era visual emphasis effect. A brief bright burst of digital light for emphasis moments. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, dark, ambient",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ui/typewriter",
+      "prompt": "TrackType: SFX. A gentle 8-bit visual novel text display click. A soft square wave key press with slight texture, like GBA-era dialogue text appearing letter by letter. A repeated gentle soft tick sound for text rendering. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, ambient, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/heartbeat",
+      "prompt": "TrackType: SFX. A tense 8-bit heartbeat sound. A repeating double low-frequency square wave thump-lub pattern with slight echo, like a GBA-era tension and suspense indicator. A steady double-pulse heartbeat rhythm building nervous atmosphere. 44.1k Hz.",
+      "negative_prompt": "music, realistic, melody, ambient, harsh",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/gasp",
+      "prompt": "TrackType: SFX. A brief 8-bit surprise gasp reaction sound. A quick square wave noise burst with sharp attack and quick decay, like a GBA-era anime-style startle response. A short surprised reaction indicating shock or realization. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, calm",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/rustle",
+      "prompt": "TrackType: SFX. A brief 8-bit fabric clothing rustling sound. A short soft noise channel texture like clothing movement in a GBA-era game. A quick textured fabric rustle indicating character movement or adjusting clothes. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/footstep_indoor",
+      "prompt": "TrackType: SFX. A soft 8-bit indoor footstep sound. Three gentle square wave clicks on wooden floor with slight resonance, like walking in a GBA-era interior scene. Low impact short footsteps indicating quiet indoor movement. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, outdoor, loud",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/footstep_outdoor",
+      "prompt": "TrackType: SFX. A crunchy 8-bit outdoor footstep sound. Brief noise channel crunching steps on gravel at casual walking pace, like walking outdoors in a GBA-era game. Short textured footsteps for outdoor scene ambience. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, indoor, loud",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/footstep_school",
+      "prompt": "echoing 8-bit school hallway footstep sound. Quick echoing square wave steps on hard floor at running pace, like running through a GBA-era school corridor. Bright resonant footsteps indicating energetic school movement. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, outdoor, soft",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/laugh_girl",
+      "prompt": "TrackType: SFX. A cute 8-bit anime girl laughing sound. Soft high square wave giggling tones with cheerful and gentle character, like a GBA-era anime-style girl laughing. A brief warm giggle full of cheerful personality. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, dark, harsh, male",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/sigh",
+      "prompt": "TrackType: SFX. A gentle 8-bit sigh sound. A soft descending triangle wave breath release, like a GBA-era character expressing relief or contentment. A brief gentle descending breath indicating relaxation or mild exasperation. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/blush",
+      "prompt": "TrackType: SFX. A cute 8-bit blush embarrassment sound. A soft warm square wave ping with gentle sparkle, like a GBA-era anime embarrassment indicator. A brief warm gentle tone for moments of cute embarrassment. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, dark, harsh, loud",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/cry_soft",
+      "prompt": "TrackType: SFX. A quiet 8-bit soft crying sobbing sound. Gentle descending sine wave sobbing tones with emotional quiet character, like a GBA-era sad anime scene. A brief emotional weeping sound indicating tears and sadness. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, happy",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/yawn",
+      "prompt": "TrackType: SFX. A cute 8-bit sleepy yawn sound. A soft ascending-descending sine wave with drowsy character, like a GBA-era character getting sleepy. A brief gentle yawn indicating drowsiness or comfortable tiredness. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/sneeze",
+      "prompt": "TrackType: SFX. A cute 8-bit sneeze sound. A small quick noise burst with adorable character, like a GBA-era anime-style cute sneeze. A brief tiny explosion of air indicating an adorable sneeze moment. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, male",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/stomach_growl",
+      "prompt": "TrackType: SFX. A comedic 8-bit stomach growling sound. A low frequency triangle wave rumble with brief gurgle character, like a GBA-era comedic hunger moment. A short funny stomach rumble indicating hunger in a cute way. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, harsh, loud",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/clear_throat",
+      "prompt": "TrackType: SFX. A brief 8-bit gentle throat clearing sound. A soft square wave ahem with attention-getting character, like a GBA-era character trying to get attention. A short soft ahem indicating polite attention-seeking. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/breathing_soft",
+      "prompt": "TrackType: SFX. A calm 8-bit soft breathing sound. Gentle sine wave inhale and exhale cycle with calm intimate character, like a GBA-era quiet peaceful moment. A slow breathing pattern indicating calm relaxation or intimate closeness. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, fast",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/door_open",
+      "prompt": "TrackType: SFX. A brief 8-bit door opening sound. A square wave creak followed by a sliding open, like opening an interior door in a GBA-era game. A short creak-and-slide for interior door opening. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, outdoor",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/door_close",
+      "prompt": "TrackType: SFX. A brief 8-bit door closing sound. A square wave thud with a click latch, like shutting an interior door in a GBA-era game. A short impact thud with click for door closing. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, outdoor",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/chime",
+      "prompt": "TrackType: SFX. A pleasant 8-bit doorbell chime sound. Two bright high square wave tones with clear resonant character, like a visitor arriving in a GBA-era game. A cheerful two-tone doorbell indicating someone at the door. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, dark",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/phone_ring",
+      "prompt": "TrackType: SFX. An 8-bit retro phone ringing sound. A repeating two-tone square wave pattern with insistent character, like a phone notification in a GBA-era game. A persistent two-tone ring pattern for incoming call notification. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, ambient",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/wind",
+      "prompt": "TrackType: SFX. A gentle 8-bit outdoor wind breeze sound. A soft noise channel breeze with gentle flowing character, like outdoor atmosphere in a GBA-era game. A calm wind ambience for outdoor scene background. 44.1k Hz.",
+      "negative_prompt": "music, realistic, loud, impact",
+      "duration": 5,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/rain",
+      "prompt": "TrackType: SFX. A gentle 8-bit rain sound. A steady noise channel rainfall pattern with calm consistent character, like a GBA-era rainy day atmosphere. A soothing steady rain ambience for rainy scene background. 44.1k Hz.",
+      "negative_prompt": "music, realistic, loud, impact",
+      "duration": 5,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/thunder",
+      "prompt": "TrackType: SFX. A dramatic 8-bit distant thunder rumble sound. A low triangle wave boom with rumbling decay, like a GBA-era storm atmosphere moment. A brief but dramatic distant thunder for stormy scene emphasis. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, constant, harsh",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/birds",
+      "prompt": "TrackType: SFX. A cheerful 8-bit morning birds chirping sound. Bright high square wave bird songs with cheerful natural character, like outdoor nature in a GBA-era game. A pleasant morning bird chorus for bright outdoor scene. 44.1k Hz.",
+      "negative_prompt": "music, realistic, loud, harsh, urban",
+      "duration": 4,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/crickets",
+      "prompt": "TrackType: SFX. A rhythmic 8-bit night crickets sound. High square wave rhythmic chirping with summer evening character, like a GBA-era nighttime outdoor scene. A calm cricket chorus for peaceful summer evening atmosphere. 44.1k Hz.",
+      "negative_prompt": "music, realistic, loud, harsh, urban",
+      "duration": 4,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/clock_tick",
+      "prompt": "TrackType: SFX. A steady 8-bit clock ticking sound. Rhythmic square wave tick-tock pattern with quiet room character, like a GBA-era time passing moment. A calm steady tick-tock for quiet room time atmosphere. 44.1k Hz.",
+      "negative_prompt": "music, realistic, loud, harsh, erratic",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/alarm_clock",
+      "prompt": "TrackType: SFX. A persistent 8-bit alarm clock ringing sound. Insistent square wave beeping with urgent wake-up character, like a GBA-era morning alarm. An annoying persistent beep pattern for morning wake-up call. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, gentle, calm",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/school_bell",
+      "prompt": "TrackType: SFX. A clear 8-bit school bell ringing sound. A bright square wave metallic tone with resonant decay, like a GBA-era class change bell. A brief clear resonant tone indicating class period change. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, dark, harsh",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/train_arrive",
+      "prompt": "TrackType: SFX. An approaching 8-bit train arriving sound. A low triangle wave rumble building in volume, like a GBA-era platform scene. A rumbling approaching sound for train station arrival atmosphere. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, indoor, gentle",
+      "duration": 4,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/train_depart",
+      "prompt": "TrackType: SFX. A departing 8-bit train leaving sound. An accelerating square wave rhythm that fades into distance, like a GBA-era farewell scene. A fading accelerating rhythm for train departure moment. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, indoor, gentle",
+      "duration": 4,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/splash",
+      "prompt": "TrackType: SFX. A playful 8-bit water splash sound. A quick noise channel burst with bright splash character, like a GBA-era pool or bath moment. A brief bright splash for playful water contact. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, dark, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/bathwater",
+      "prompt": "TrackType: SFX. A gentle 8-bit bathwater sloshing sound. A soft noise channel gentle water movement with warm relaxing character, like a GBA-era bath scene. A calm gentle water movement for warm bath atmosphere. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/fireworks_boom",
+      "prompt": "TrackType: SFX. A festive 8-bit firework explosion sound. A square wave boom with high sparkle trail, like a GBA-era summer festival firework. A brief dramatic boom with trailing sparkle for festive firework moment. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, constant, indoor",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/festival_bell",
+      "prompt": "TrackType: SFX. A bright 8-bit festival bell ringing sound. A bright square wave metallic tone with traditional Japanese matsuri character, like a GBA-era summer festival. A cheerful traditional bell tone for festival atmosphere. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, dark, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/snow_footstep",
+      "prompt": "TrackType: SFX. A soft muffled 8-bit snow footstep sound. Gentle noise channel crunching steps with muffled soft character, like walking in snow in a GBA-era game. Soft gentle crunching footsteps for winter atmosphere. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, indoor",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/cicada",
+      "prompt": "TrackType: SFX. A rhythmic 8-bit summer cicada buzzing sound. Rhythmic square wave insect buzzing with hot afternoon character, like a GBA-era Japanese summer scene. A persistent cicada chorus for hot summer afternoon atmosphere. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, indoor, harsh",
+      "duration": 4,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/success",
+      "prompt": "TrackType: SFX. A triumphant 8-bit success jingle. Four ascending cheerful square wave notes forming a positive GBA-era reward fanfare. An upbeat four-note ascending pattern for achievement and reward moments. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, dark, sad",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/failure",
+      "prompt": "TrackType: SFX. A sad 8-bit failure jingle. Four descending mournful square wave notes forming a GBA-era negative outcome sound. A descending four-note pattern for disappointment and failure moments. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, happy, cheerful",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/sweet_success",
+      "prompt": "TrackType: SFX. A warm sweet 8-bit romantic achievement jingle. Five gentle ascending sine wave notes with warm tone, like a GBA-era romantic reward moment. A sweet five-note ascending pattern for romantic achievement and heartwarming success. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, dark, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/ominous",
+      "prompt": "TrackType: SFX. An unsettling 8-bit ominous foreboding jingle. Descending dissonant square wave tones with suspenseful character, like a GBA-era warning or suspense moment. A dark descending pattern for suspense and foreboding atmosphere. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, happy, cheerful",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/discovery",
+      "prompt": "TrackType: SFX. An exciting 8-bit discovery reveal jingle. Fast ascending bright square wave notes, like finding something important in a GBA-era game. A rapid ascending pattern for exciting discovery and revelation moments. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, slow, sad",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/curtain_open",
+      "prompt": "TrackType: SFX. A bright 8-bit scene begin curtain opening jingle. Four ascending triangle wave tones, like a GBA-era visual novel scene transition opening. A gentle four-note ascending pattern for scene beginning. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, dark",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/curtain_close",
+      "prompt": "TrackType: SFX. A gentle 8-bit scene end curtain closing jingle. Four descending triangle wave tones, like a GBA-era visual novel scene transition ending. A gentle four-note descending pattern for scene conclusion. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, happy",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/love_up",
+      "prompt": "TrackType: SFX. A sparkling 8-bit love meter increase jingle. Sparkling ascending square wave notes with warm sweet character, like a GBA-era affection rising moment. A bright sparkling ascending pattern for love and affection increasing. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, dark, harsh, sad",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/morning",
+      "prompt": "TrackType: SFX. A bright 8-bit morning wake-up jingle. Cheerful ascending square wave notes with bright new-day character, like a GBA-era new day beginning. An upbeat ascending pattern for morning and new day start. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, dark, sad, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/night",
+      "prompt": "TrackType: SFX. A gentle 8-bit nighttime jingle. Gentle descending sine wave notes with peaceful sleepy character, like a GBA-era day ending moment. A calm descending pattern for night falling and peaceful sleep. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, bright, energetic, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/achievement",
+      "prompt": "TrackType: SFX. A triumphant 8-bit achievement unlock jingle. A short bright square wave fanfare with rewarding character, like a GBA-era accomplishment celebration. An upbeat rewarding fanfare for achievement unlock moments. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, dark, sad, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/soft_tap",
+      "prompt": "TrackType: SFX. A brief intimate 8-bit soft shoulder tap sound. A gentle square wave click with warm close character, like a GBA-era intimate skin contact moment. A soft brief tap for gentle touch on shoulder. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/hand_hold",
+      "prompt": "TrackType: SFX. A warm tender 8-bit hand holding sound. A gentle soft square wave grasp with warm intimate character, like a GBA-era romantic moment. A brief warm grasp for intimate hand holding contact. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/hug",
+      "prompt": "TrackType: SFX. A warm close 8-bit hugging sound. A soft square wave embrace with noise channel fabric rustle, like a GBA-era warm anime embrace moment. A brief warm impact with soft rustle for hugging contact. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, aggressive",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/head_pat",
+      "prompt": "TrackType: SFX. An affectionate 8-bit head patting sound. Gentle repetitive soft square wave pats with warm affectionate character, like a GBA-era anime head pat moment. A brief repeated soft pat for affectionate head patting. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, aggressive",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/kiss_cheek",
+      "prompt": "TrackType: SFX. A sweet brief 8-bit cheek kiss sound. A soft quick noise channel pop with gentle affection character, like a GBA-era sweet anime kiss moment. A brief gentle pop for sweet cheek kiss contact. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/tuck_in",
+      "prompt": "TrackType: SFX. A caring gentle 8-bit tucking into bed sound. A soft noise channel blanket adjustment with caring gentle character, like a GBA-era caring bedtime moment. A brief soft blanket rustle for gentle tucking in. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/hair_stroke",
+      "prompt": "TrackType: SFX. A tender quiet 8-bit hair stroking sound. Gentle repeated soft noise channel brushing with tender intimate character, like a GBA-era quiet romantic moment. A brief repeated soft brushing for tender hair stroking. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/forehead_touch",
+      "prompt": "TrackType: SFX. An intimate warm 8-bit forehead touching sound. A soft intimate square wave contact with gentle thud, like a GBA-era tender anime forehead touch moment. A brief soft warm contact for intimate forehead touch. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, aggressive",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/breathing_heavy",
+      "prompt": "TrackType: SFX. A nervous excited 8-bit slightly heavy breathing sound. Quick soft sine wave inhale-exhale pattern with close intimate character, like a GBA-era nervous intimate anime moment. A rapid breathing cycle for nervous excitement or intimate closeness. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/clothes_slip",
+      "prompt": "TrackType: SFX. A brief gentle 8-bit clothing slipping off sound. A soft sliding noise channel with brief gentle character, like a GBA-era intimate anime scene. A short gentle fabric slide for clothing removal moment. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/button",
+      "prompt": "TrackType: SFX. A brief nervous 8-bit button unfastening sound. A small soft square wave click with nervous character, like a GBA-era intimate anime scene. A single soft click for button unfastening moment. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/fabric_slide",
+      "prompt": "TrackType: SFX. A gentle smooth 8-bit fabric sliding on skin sound. A soft smooth noise channel sweep with brief gentle character, like a GBA-era intimate anime scene. A short smooth texture for fabric against skin moment. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, aggressive",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/towel_drop",
+      "prompt": "TrackType: SFX. A brief 8-bit towel dropping sound. A soft noise channel flutter with gentle thud, like a GBA-era intimate anime reveal moment. A brief soft flutter-then-thud for towel dropping. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/wet_hair_drip",
+      "prompt": "TrackType: SFX. A gentle repeating 8-bit wet hair dripping sound. Soft sine wave water drops with repeating gentle plop character, like a GBA-era bathroom atmosphere. A calm repeating water drip for wet hair bathroom scene. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/back_wash",
+      "prompt": "TrackType: SFX. A gentle intimate 8-bit back washing sound. Soft noise channel scrubbing with gentle water sine wave character, like a GBA-era intimate bath scene. A brief gentle scrubbing with soft water for intimate back washing. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, aggressive",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/skin_touch",
+      "prompt": "TrackType: SFX. A brief warm 8-bit skin-on-skin touch sound. A very soft warm square wave brush with intimate contact character, like a GBA-era close anime moment. A brief soft warm contact for intimate skin touch. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/bed_creak",
+      "prompt": "TrackType: SFX. A brief gentle 8-bit bed creaking sound. A soft low triangle wave groan with brief gentle squeak character, like a GBA-era bedroom scene. A short soft creak for bed movement. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh, aggressive",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/blanket_rustle",
+      "prompt": "TrackType: SFX. A warm intimate 8-bit blanket rustling sound under covers. A soft warm noise channel with shared blanket movement character, like a GBA-era intimate bedroom scene. A brief soft fabric rustle for shared blanket movement. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/soft_gasp",
+      "prompt": "TrackType: SFX. A brief soft surprised 8-bit gasp sound. A quick gentle sine wave breath with surprised intimate character, like a GBA-era close surprised anime moment. A brief soft breath intake for intimate surprise reaction. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/heartbeat_fast",
+      "prompt": "TrackType: SFX. A rapid nervous 8-bit fast heartbeat sound. Rapid double square wave thump pattern with racing excited character, like a GBA-era nervous excitement anime moment. A fast double-pulse heartbeat for racing pulse and nervous excitement. 44.1k Hz.",
+      "negative_prompt": "music, realistic, melody, long, harsh",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/ear_whisper",
+      "prompt": "TrackType: SFX. A close intimate 8-bit whisper in ear sound. A soft close sine wave breath with ticklish brief character, like a GBA-era intimate anime whisper moment. A brief soft breath for close whisper ticklish feeling. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/hair_tie_remove",
+      "prompt": "TrackType: SFX. A brief 8-bit hair tie removal snap sound. A small soft square wave snap with hair falling loose character, like a GBA-era intimate anime reveal moment. A single soft snap for hair tie removal. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/glasses_remove",
+      "prompt": "TrackType: SFX. A gentle subtle 8-bit glasses removal sound. A gentle square wave click with intimate reveal character, like a GBA-era anime character removing glasses moment. A brief subtle click for glasses removal reveal. 44.1k Hz.",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    }
+  ]
+}
