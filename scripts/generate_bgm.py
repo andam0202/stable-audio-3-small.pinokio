@@ -1,5 +1,5 @@
 """
-Generate gothic STG BGM using DeathSmiles LoRA step500.
+Generate gothic STG BGM using DeathSmiles LoRA (medium model).
 Produces 20 tracks (8 normal + 8 classical homage + 4 boss), each 90 seconds.
 
 Usage:
@@ -20,26 +20,17 @@ from stable_audio_3 import StableAudioModel
 
 BASE_DIR = os.path.join(os.path.dirname(__file__), "..")
 PROMPTS_PATH = os.path.join(BASE_DIR, "data", "input", "gothic_stg_prompts.json")
-LORA_DIR = os.path.join(BASE_DIR, "data", "temp", "deathsmiles", "lora_output", "DeathSmiles_v1")
-OUTPUT_DIR = os.path.join(BASE_DIR, "data", "temp", "deathsmiles", "generated", "step500_90s_v2")
+LORA_DIR = os.path.join(BASE_DIR, "data", "temp", "deathsmiles", "lora_output", "DeathSmiles_v1_medium")
+OUTPUT_DIR = os.path.join(BASE_DIR, "data", "temp", "deathsmiles", "generated", "medium_v6")
 
 LORA_STEP = 500
 DURATION = 90.0
 STEPS = 8
-CFG_SCALE = 4.0
+CFG_SCALE = 1.0
 SEED = 42
 
-MODEL_NAME = "cocktailpeanut/stable-audio-3-small-music"
-MODEL_CONFIG = "model_config.json"
-MODEL_CKPT = "model.safetensors"
-
-
-def register_mirror(model_module, configs_module):
-    from stable_audio_3.model_configs import ModelConfig
-    config = ModelConfig(MODEL_NAME, MODEL_CONFIG, MODEL_CKPT)
-    configs_module.models["small-music"] = config
-    configs_module.all_models["small-music"] = config
-    model_module.all_models = configs_module.all_models
+# Use official medium model (gated repo, requires HF_TOKEN)
+MODEL_KEY = "medium"
 
 
 def main():
@@ -48,14 +39,10 @@ def main():
 
     print(f"Loaded {len(prompts)} prompts")
 
-    import stable_audio_3.model as model_module
-    import stable_audio_3.model_configs as model_configs
-    register_mirror(model_module, model_configs)
-
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Device: {device}")
 
-    lora_path = os.path.join(LORA_DIR, f"DeathSmiles_v1_step{LORA_STEP}.safetensors")
+    lora_path = os.path.join(LORA_DIR, f"DeathSmiles_v1_medium_step{LORA_STEP}.safetensors")
     out_dir = OUTPUT_DIR
     os.makedirs(out_dir, exist_ok=True)
 
@@ -69,14 +56,14 @@ def main():
         return
 
     print(f"\n{'='*60}")
-    print(f"Generating with LoRA step {LORA_STEP}")
+    print(f"Generating with Medium model + LoRA step {LORA_STEP}")
     print(f"LoRA: {lora_path}")
     print(f"Output: {out_dir}")
-    print(f"Duration: {DURATION}s per track")
+    print(f"Duration: {DURATION}s | Steps: {STEPS} | CFG: {CFG_SCALE}")
     print(f"{'='*60}")
 
-    print("Loading base model...")
-    model = StableAudioModel.from_pretrained("small-music", model_half=True)
+    print("Loading medium model...")
+    model = StableAudioModel.from_pretrained(MODEL_KEY, model_half=True)
     print("Model loaded. Applying LoRA...")
     model.load_lora([lora_path])
     print("LoRA applied.")

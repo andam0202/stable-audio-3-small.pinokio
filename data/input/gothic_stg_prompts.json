@@ -1,82 +1,82 @@
 [
   {
     "id": "title",
-    "prompt": "death_smiles, arcade shooting game title screen, gothic, pipe organ, synth brass, driving beat, powerful, intense, electronic rock, dark fantasy, high energy, 130 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Gothic Techno, Format: Band. A triumphant Detroit techno track titled 'Sacred Invitation', featuring a soaring pipe organ lead solo layered over a pumping four-on-the-floor kick. Supported by deep techno bass pulse, acid synth brass stabs, and driving 909 hi-hats. The mood is exhilarating, heroic, and majestic. Gothic meets techno. Well-arranged composition. Live. 140 BPM."
   },
   {
     "id": "title_classical",
-    "prompt": "death_smiles, Bach toccata and fugue inspired, pipe organ, synth bass, driving rock beat, gothic arcade, baroque meets metal, intense, powerful, minor key, 140 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Baroque Techno, Format: Band. A majestic baroque techno opening titled 'Toccata of Dawn', featuring a powerful pipe organ solo with acid synth counter-melody. Supported by a four-on-the-floor 909 kick, driving techno bass, and bold techno-brass arrangement. The mood is exhilarating, heroic, and adventurous. Bach meets Detroit techno. Well-arranged composition. Live. 140 BPM."
   },
   {
     "id": "stage1",
-    "prompt": "death_smiles, arcade STG stage 1, moonlit rose garden, harpsichord, synth lead, fast arpeggio, gothic lolita, upbeat, driving rhythm, shooting game BGM, 155 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Techno, Format: Band. A bright and adventurous techno track titled 'Moonlit Rose Garden', featuring a sparkling harpsichord lead solo with cheerful acid synth counter-melody. Supported by a bouncy techno bass line, tight 909 hi-hat patterns, and arpeggiated synth pads. The mood is refreshing, heroic, and uplifting. Light and stylish Detroit techno. Catchy melody. Well-arranged composition. Live. 155 BPM."
   },
   {
     "id": "stage1_classical",
-    "prompt": "death_smiles, Chopin nocturne reimagined as arcade rock, piano melody over driving synth bass, electronic beat, fast arpeggios, gothic, energetic, romantic intensity, 140 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Techno, Format: Band. A bright techno adventure titled 'Nocturne in Neon', featuring a beautiful piano lead solo with cheerful acid synth strings. Supported by driving techno bass, punchy 909 drums, and energetic arpeggiated synth pads. The mood is adventurous, romantic, and uplifting. Chopin reimagined as techno. Catchy melody. Well-arranged composition. Live. 140 BPM."
   },
   {
     "id": "stage2",
-    "prompt": "death_smiles, arcade STG stage 2, haunted doll mansion, twisted waltz, music box, aggressive synth, dissonant, fast-paced action, eerie, driving percussion, 160 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Techno, Format: Band. A thrilling twisted techno waltz titled 'Doll Mansion Waltz', featuring a playful music box lead solo with exciting acid synth stabs. Supported by a driving four-on-the-floor beat, tight hi-hats, and dynamic synth counter-melodies. The mood is mischievous, thrilling, and fun spooky. Catchy twisted melody. Well-arranged composition. Live. 160 BPM."
   },
   {
     "id": "stage2_classical",
-    "prompt": "death_smiles, Saint-Saens Danse Macabre reimagined as arcade boss rush, screeching synth violin, driving beat, electronic waltz, macabre, intense, skeletal dance, 170 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Gothic Techno, Format: Band. A thrilling gothic techno waltz titled 'Dance of the Dead', featuring an energetic acid synth violin solo. Supported by a four-on-the-floor 909 kick, driving techno bass, and layered synth strings. The mood is thrilling, dynamic, and exhilarating. Saint-Saens reimagined as gothic techno. Catchy melody. Well-arranged composition. Live. 170 BPM."
   },
   {
     "id": "stage3",
-    "prompt": "death_smiles, arcade STG stage 3, corrupted cathedral, pipe organ, distorted synth, heavy brass, aggressive, intense action, gothic metal, driving, relentless, 165 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Gothic Techno Rock, Format: Band. A fierce gothic techno rock track titled 'Bloody Cathedral', featuring a blazing pipe organ solo layered over a driving techno beat with acid synth lead. Supported by aggressive techno bass riffs, pounding 909 kick, and powerful synth stabs. The mood is hot-blooded, fierce, and heroic. Gothic techno rock battle. Catchy melody. Well-arranged composition. Live. 165 BPM."
   },
   {
     "id": "stage3_classical",
-    "prompt": "death_smiles, Mozart Requiem reimagined as arcade shooter, choir synth, driving drum beat, dramatic orchestral rock, lacrimosa, intense, dark sacred, powerful, 160 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Hardcore Techno, Format: Band. A fierce techno battle hymn titled 'Requiem of Fury', featuring a powerful choir synth solo with blazing acid strings. Supported by a four-on-the-floor drum beat, heavy techno bass, and dense synth harmonies. The mood is fierce, powerful, and triumphant. Mozart Requiem reimagined as techno battle hymn. Catchy melody. Well-arranged composition. Live. 160 BPM."
   },
   {
     "id": "stage4",
-    "prompt": "death_smiles, arcade STG stage 4, abyssal spiral staircase, heavy bass, aggressive synth, industrial percussion, oppressive, relentless, dark, intense action, 170 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Techno, Format: Band. A relentless driving techno track titled 'Spiral Descent', featuring a fierce acid synth lead solo with powerful synth stabs. Supported by pounding 909 kick with tight beat patterns, deep driving techno bass, and layered synth textures. The mood is fierce, indomitable, and aggressive. Unstoppable forward momentum. Catchy melody. Well-arranged composition. Live. 170 BPM."
   },
   {
     "id": "stage4_classical",
-    "prompt": "death_smiles, Chopin funeral march reimagined as arcade boss theme, heavy distorted bass, pounding drums, dark piano, doom metal, funeral march beat, intense, 165 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Techno, Format: Band. A fierce techno march titled 'March of Heroes', featuring a bold acid synth lead solo with powerful techno brass. Supported by pounding 909 drums, heavy techno bass, and layered synth strings. The mood is fierce, triumphant, and determined. Chopin funeral march reimagined as techno march. Catchy melody. Well-arranged composition. Live. 165 BPM."
   },
   {
     "id": "stage5",
-    "prompt": "death_smiles, arcade STG stage 5, infernal demon temple, blazing fast, furious synth shredding, driving kick drum, aggressive guitar, intense strings, epic, wrathful, 180 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Hardcore Techno, Format: Band. A blazing hardcore techno track titled 'Infernal Temple', featuring a furious acid synth lead solo with aggressive distorted techno riffs. Supported by explosive 909 kick drum, heavy techno bass, and blazing synth layers. The mood is blazing, fierce, and epic. Maximum intensity hardcore techno. Catchy melody. Well-arranged composition. Live. 175 BPM."
   },
   {
     "id": "stage5_classical",
-    "prompt": "death_smiles, Verdi Dies Irae reimagined as arcade final stage, thunderous synth brass, driving beat, blazing electronic orchestra, apocalyptic, day of wrath, fearsome, 175 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Hardcore Techno, Format: Band. A blazing hardcore techno climax titled 'Day of Wrath', featuring thunderous acid synth brass solo with layered choir synth. Supported by heavy techno bass, 909 drums, and driving four-on-the-floor. The mood is epic, blazing, and glorious. Verdi Dies Irae reimagined as hardcore techno. Catchy melody. Well-arranged composition. Live. 175 BPM."
   },
   {
     "id": "stage6",
-    "prompt": "death_smiles, arcade STG final stage, throne room, desperate, full blast synth orchestra, frantic, bullet hell, climactic, heroic sacrifice, maximum intensity, tragic, 185 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Hardcore Techno, Format: Band. A heroic final battle techno track titled 'Throne of Extinction', featuring a soaring catchy synth lead solo over full blast techno ensemble. Supported by driving 909 double kick, heavy acid bass, and dense layered synth arrangement. The mood is heroic, blazing, and glorious. Triumphant final stand. Catchy melody. Well-arranged composition. Live. 185 BPM."
   },
   {
     "id": "stage6_classical",
-    "prompt": "death_smiles, Liszt Totentanz reimagined as arcade final boss, virtuosic synth solo, blazing tempo, orchestral fury, demonic, thunderous, piano cadenza, overwhelming, 180 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Rotterdam Techno, Format: Band. A glorious Rotterdam techno showdown titled 'Dance of Death', featuring a blazing virtuosic acid synth solo. Supported by heavy 909 drums, thunderous techno bass, layered synth strings and brass. The mood is glorious, epic, and triumphant. Liszt Totentanz reimagined as Rotterdam techno. Catchy melody. Well-arranged composition. Live. 180 BPM."
   },
   {
     "id": "ending",
-    "prompt": "death_smiles, arcade STG ending, gothic choir, strings, synth pad, bittersweet, peaceful resolution, ethereal, emotional, credits roll, gentle, sacred, 100 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Ambient Techno, Format: Band. A hopeful ambient techno ending titled 'Lullaby of Rebirth', featuring an uplifting gothic choir lead with warm synth pads. Supported by gentle electronic beat, soft techno bass pulse, and hopeful string section. The mood is warm, emotional, and peaceful. Victory and new dawn. Catchy melody. Well-arranged composition. Live. 100 BPM."
   },
   {
     "id": "ending_classical",
-    "prompt": "death_smiles, Chopin Tristesse reimagined as arcade ending, tender piano, synth strings, nostalgic, bittersweet, credits theme, gentle melody, emotional, moving, 90 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Ambient Techno, Format: Band. A nostalgic ambient techno ending titled 'Farewell et Tristesse', featuring a tender piano lead solo with warm synth strings. Supported by gentle techno bass line, soft electronic beat, and lush synth pads. The mood is nostalgic, hopeful, and emotional. Chopin Tristesse reimagined as ambient techno. Catchy melody. Well-arranged composition. Live. 90 BPM."
   },
   {
     "id": "boss_midboss",
-    "prompt": "death_smiles, arcade STG mid-boss battle, warning alarm, aggressive synth riff, driving beat, intense, fast-paced, gothic rock, short danger motif, urgent, 165 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Hardcore Techno, Format: Band. A thrilling hardcore techno boss battle track titled 'Warning Incoming', featuring an aggressive acid synth riff lead solo. Supported by heavy techno bass line, driving four-on-the-floor 909 beat, and tight snare. The mood is exciting, thrilling, and hot-blooded. Gothic techno boss fight. Catchy riff. Well-arranged composition. Live. 170 BPM."
   },
   {
     "id": "boss_stage",
-    "prompt": "death_smiles, arcade STG stage boss battle, heavy synth brass, pounding drums, intense guitar riff, dramatic, desperate, gothic metal, powerful, relentless action, 175 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Hardcore Techno, Format: Band. A fierce hardcore techno stage boss track titled 'Guardian's Assault', featuring a blazing acid synth brass solo. Supported by pounding 909 drums with double kick, deep techno bass, and dramatic synth stabs. The mood is fierce, powerful, and relentless. Gothic techno metal. Catchy melody. Well-arranged composition. Live. 180 BPM."
   },
   {
     "id": "boss_final",
-    "prompt": "death_smiles, arcade STG final boss battle, overwhelming synth orchestra, frantic pace, desperate, epic, full ensemble, climactic, maximum intensity, bullet hell, tragic, 190 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Rotterdam Techno, Format: Band. An overwhelming Rotterdam hardcore techno final boss track titled 'Demon God Descends', featuring a soaring acid synth ensemble solo. Supported by driving 909 double kick drums, deep pulsating techno bass, and epic full techno ensemble. The mood is heroic, blazing, and glorious. Ultimate climax. Catchy melody. Well-arranged composition. Live. 190 BPM."
   },
   {
     "id": "boss_extra",
-    "prompt": "death_smiles, arcade STG hidden true boss, beyond limits, breakcore beat, aggressive synth shredding, chaotic, overwhelming, impossible, electronic metal, insane, 200 BPM"
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Breakcore Techno, Format: Band. An insane breakcore techno hidden boss track titled 'Beyond the Abyss', featuring a blazing acid synth shredding solo. Supported by fierce breakcore beat, heavy distorted techno bass, and chaotic layered synth. The mood is overwhelming, insane, and exhilarating. Maximum density breakcore. Catchy riff. Well-arranged composition. Live. 200 BPM."
   }
 ]
