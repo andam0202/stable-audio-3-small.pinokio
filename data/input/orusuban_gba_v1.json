@@ -1,0 +1,1549 @@
+{
+  "_comment": "orusuban用 Stable Audio 3 プロンプト定義 - GBA風チップチューン 4ch+展開",
+  "_usage": "bash generate_from_prompts.sh          (全生成) / bash generate_from_prompts.sh bgm/title  (個別)",
+  "_api": "http://127.0.0.1:7860",
+  "bgm": [
+    {
+      "name": "title",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, dreamy fluffy title screen, F major, 106 BPM, square wave lead melody with gentle flowing phrases, square wave counter-melody and arpeggiated chords, triangle wave bass line with warm movement, noise channel soft rhythm, tender A-melo, swelling B-melo with emotional rise, warm chorus resolution, floating on clouds, cozy and inviting, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, intense, distortion, heavy bass, dark",
+      "duration": 90,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "opening",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, cheerful opening theme, C major, 140 BPM, square wave lead melody with catchy memorable phrases, square wave harmony and bright arpeggiated chords, triangle wave walking bass line, noise channel upbeat percussion, catchy A-melo with playful variations, lively B-melo bridge, memorable chorus hook, morning sunshine, new beginnings, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, slow, sad, ambient",
+      "duration": 60,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "daily_morning",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, bright cheerful morning, G major, 125 BPM, square wave lead melody with bouncy phrases, square wave harmony and warm arpeggiated chords, triangle wave bouncy bass line, noise channel light rhythm, catchy A-melo, energetic B-melo, cheerful chorus, waking up sunshine, slice of life, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, aggressive, fast, intense",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "daily_afternoon",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, relaxed warm afternoon, F major, 100 BPM, square wave lead melody with gentle flowing phrases, square wave soft counter-melody and arpeggiated chords, triangle wave smooth bass line, noise channel gentle rhythm, gentle A-melo, warm B-melo, peaceful chorus, lazy sunshine, easygoing day, retro video game",
+      "negative_prompt": "vocals, realistic instruments, energetic, fast, intense, aggressive",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "school",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, energetic school theme, D major, 140 BPM, square wave lead melody with quick playful phrases, square wave harmony and fast arpeggiated chords, triangle wave driving bass line, noise channel busy percussion, catchy A-melo with variations, lively B-melo, bustling chorus, youthful and lively, anime school, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, slow, ambient, scary",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "library",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, quiet library atmosphere, E-flat major, 89 BPM, square wave lead melody with delicate gentle phrases, square wave soft harmony and sparse arpeggiated chords, triangle wave quiet bass line, noise channel very soft rhythm, tender A-melo, calm B-melo, hushed chorus, studying together, warm lighting, retro video game",
+      "negative_prompt": "vocals, realistic instruments, loud, fast, aggressive, energetic",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "rooftop",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, school rooftop open sky, A major, 105 BPM, square wave lead melody with soaring phrases, square wave airy counter-melody and arpeggiated chords, triangle wave gentle bass line, noise channel soft breeze rhythm, contemplative A-melo, freeing B-melo, emotional chorus, gentle wind, anime moment, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, aggressive, heavy, intense",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "sunset",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, beautiful sunset, B-flat major, 95 BPM, square wave lead melody with warm descending phrases, square wave golden harmony and arpeggiated chords, triangle wave warm bass line, noise channel gentle rhythm, warm A-melo, nostalgic B-melo, peaceful chorus, golden hour, day ending, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, fast, aggressive, energetic",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "cooking",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, fun cooking scene, F major, 130 BPM, square wave lead melody with playful bouncing phrases, square wave cheerful harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel lively percussion, catchy A-melo with variations, playful B-melo, cheerful chorus, kitchen happiness, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, intense, scary, sad",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "cooking_together",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, romantic cooking together, G major, 126 BPM, square wave lead melody with playful duet phrases, square wave call-and-response harmony and arpeggiated chords, triangle wave warm bass line, noise channel light percussion, playful A-melo, warm B-melo, joyful chorus, intimate domestic, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, intense, scary, sad, lonely",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "shopping",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, fun shopping trip, B-flat major, 130 BPM, square wave lead melody with bouncy catchy phrases, square wave bright harmony and arpeggiated chords, triangle wave walking bass line, noise channel cheerful percussion, catchy A-melo, lively B-melo, bouncy chorus, lighthearted and playful, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, slow, sad, intense",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "cafe",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, cozy cafe atmosphere, A-flat major, 99 BPM, square wave lead melody with gentle swaying phrases, square wave warm harmony and arpeggiated chords, triangle wave smooth bass line, noise channel soft brush rhythm, warm A-melo, intimate B-melo, relaxed chorus, warm conversation mood, retro video game",
+      "negative_prompt": "vocals, realistic instruments, loud, aggressive, fast, intense",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "studying",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, focused studying, D minor, 96 BPM, square wave lead melody with repetitive focused phrases, square wave steady harmony and arpeggiated chords, triangle wave grounded bass line, noise channel minimal rhythm, steady A-melo, building B-melo, resolved chorus, concentration, quiet determination, retro video game",
+      "negative_prompt": "vocals, realistic instruments, loud, fast, aggressive, distracting",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "nap",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, peaceful nap time, E-flat major, 86 BPM, square wave lead melody with very soft drifting phrases, square wave dreamy harmony and slow arpeggiated chords, triangle wave gentle bass line, noise channel barely-there rhythm, gentle A-melo, floating B-melo, lullaby chorus, warm blanket feeling, retro video game",
+      "negative_prompt": "vocals, realistic instruments, loud, fast, energetic, intense, percussion",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "sweet_moment",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, romantic sweet moment, A minor to C major, 110 BPM, square wave lead melody with tender phrases, square wave warm counter-melody and arpeggiated chords, triangle wave moving bass line, noise channel soft rhythm, tender A-melo, swelling B-melo with emotional rise, warm chorus resolution, love scene, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, dark, intense",
+      "duration": 55,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "confession",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, emotional confession scene, F major, 106 BPM, square wave lead melody with nervous-to-warm phrases, square wave trembling harmony and arpeggiated chords, triangle wave pulsing bass line, noise channel heartbeat rhythm, nervous A-melo, building B-melo, warm release chorus, vulnerable and honest, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, comedic, fast, dark",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "dokidoki",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, tension and anticipation, E minor, 130 BPM, square wave lead melody with pulsing tense phrases, square wave staccato harmony and arpeggiated chords, triangle wave driving bass line, noise channel quick rhythm, tense pulsing A-melo, building B-melo with ascending tension, dramatic peak section, heartbeat-like, retro video game",
+      "negative_prompt": "vocals, realistic instruments, calm, slow, peaceful, ambient",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "first_kiss",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, magical first kiss, D major, 100 BPM, square wave lead melody with sparkling ascending phrases, square wave ethereal harmony and arpeggiated chords, triangle wave swelling bass line, noise channel soft shimmer rhythm, tender A-melo, magical B-melo, breathtaking chorus, anime romance peak, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, comedic",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "mischief",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, playful mischievous, B-flat major, 130 BPM, square wave lead melody with staccato cheeky phrases, square wave sneaky harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel playful percussion, bouncy A-melo with quick phrases, sneaky B-melo, playful chorus, comedy scene, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, scary, slow, serious",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "comedy",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, slapstick comedy, C major, 145 BPM, square wave lead melody with silly fast bouncing phrases, square wave wacky harmony and arpeggiated chords, triangle wave galloping bass line, noise channel energetic percussion, bouncy A-melo with quick phrases, silly B-melo, chaotic chorus, anime humor, retro video game",
+      "negative_prompt": "vocals, realistic instruments, serious, sad, dark, romantic",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jealousy",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, jealous tension, C minor, 120 BPM, square wave lead melody with uneasy staccato phrases, square wave dissonant harmony and arpeggiated chords, triangle wave restless bass line, noise channel tense rhythm, uneasy A-melo, darker B-melo, intense chorus, possessive undertone, retro video game",
+      "negative_prompt": "vocals, realistic instruments, cheerful, happy, calm, peaceful",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "love_triangle",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, complicated love triangle, B minor, 109 BPM, square wave lead melody with bittersweet phrases, square wave conflicting harmony and arpeggiated chords, triangle wave uneasy bass line, noise channel subtle rhythm, bittersweet A-melo, conflicted B-melo, emotional chorus, anime romantic drama, retro video game",
+      "negative_prompt": "vocals, realistic instruments, cheerful, comedic, aggressive, fast",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "embarrassment",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, cute embarrassment, G major, 135 BPM, square wave lead melody with quick nervous flustered phrases, square wave shy harmony and arpeggiated chords, triangle wave quick bass line, noise channel fidgety rhythm, nervous A-melo, flustered B-melo, cute chorus, blushing moment, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, scary, serious, intense",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "teasing",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, playful teasing, A major, 129 BPM, square wave lead melody with sassy flirty phrases, square wave knowing harmony and arpeggiated chords, triangle wave groovy bass line, noise channel light bouncy rhythm, sassy A-melo, playful B-melo, cheeky chorus, knowing smile, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, sad, serious, intense",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "night_calm",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, quiet peaceful night, E-flat major, 90 BPM, square wave lead melody with soft gentle phrases, square wave ethereal harmony and arpeggiated chords, triangle wave calm bass line, noise channel very soft rhythm, gentle A-melo, serene B-melo, dreamy chorus, crickets and moonlight, retro video game",
+      "negative_prompt": "vocals, realistic instruments, loud, fast, aggressive, energetic",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "night_walk",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, nighttime stroll, F major, 99 BPM, square wave lead melody with gentle swaying phrases, square wave warm harmony and arpeggiated chords, triangle wave walking bass line, noise channel soft step rhythm, warm A-melo, slightly mysterious B-melo, tender chorus, walking under stars, retro video game",
+      "negative_prompt": "vocals, realistic instruments, loud, fast, aggressive, scary",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "night_sentimental",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, emotional sentimental night, C minor, 82 BPM, square wave lead melody with melancholy descending phrases, square wave sad harmony and arpeggiated chords, triangle wave heavy bass line, noise channel minimal rhythm, melancholy A-melo, deeper emotional B-melo, quiet resolution, alone with thoughts, retro video game",
+      "negative_prompt": "vocals, realistic instruments, cheerful, fast, energetic, happy",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "stargazing",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, stargazing vast night sky, D major, 96 BPM, square wave lead melody with twinkling phrases, square wave ethereal harmony and arpeggiated chords, triangle wave deep bass line, noise channel shimmer rhythm, wonder A-melo, vast B-melo, awe chorus, peaceful and romantic, retro video game",
+      "negative_prompt": "vocals, realistic instruments, loud, fast, aggressive, urban",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "rainy_day",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, rainy day atmosphere, D minor, 95 BPM, square wave lead melody with gentle descending phrases, square wave warm harmony and arpeggiated chords, triangle wave steady bass line, noise channel rain-like rhythm, cozy A-melo, contemplative B-melo, melancholy chorus, staying inside, retro video game",
+      "negative_prompt": "vocals, realistic instruments, bright, energetic, fast, cheerful",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "sad",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sad melancholy, G minor, 80 BPM, square wave lead melody with slow weeping phrases, square wave mournful harmony and arpeggiated chords, triangle wave heavy bass line, noise channel minimal rhythm, melancholy A-melo, deeper emotional B-melo, quiet resolution, heartbreak and loss, retro video game",
+      "negative_prompt": "vocals, realistic instruments, happy, fast, energetic, cheerful",
+      "duration": 55,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "rejection",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, painful rejection, F minor, 78 BPM, square wave lead melody with dissonant aching phrases, square wave harsh harmony and arpeggiated chords, triangle wave heavy bass line, noise channel sparse rhythm, painful A-melo, crushing B-melo, lonely resolution, breaking heart, retro video game",
+      "negative_prompt": "vocals, realistic instruments, happy, cheerful, upbeat, comedic",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "separation",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sad separation farewell, E minor, 85 BPM, square wave lead melody with longing phrases, square wave distant harmony and arpeggiated chords, triangle wave fading bass line, noise channel gentle rhythm, farewell A-melo, longing B-melo, bittersweet chorus, retro video game",
+      "negative_prompt": "vocals, realistic instruments, cheerful, fast, energetic, comedic",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "reunion",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, joyful reunion, C major, 130 BPM, square wave lead melody with swelling triumphant phrases, square wave bright harmony and arpeggiated chords, triangle wave driving bass line, noise channel energetic percussion, hopeful A-melo, swelling B-melo, triumphant chorus, tears of happiness, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, scary, aggressive, comedic",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "apology",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sincere apology, B-flat major, 99 BPM, square wave lead melody with humble gentle phrases, square wave warm harmony and arpeggiated chords, triangle wave steady bass line, noise channel soft rhythm, humble A-melo, hopeful B-melo, warm resolution chorus, regret and hope, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, comedic, fast, intense",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "promise",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, making a promise, C major, 105 BPM, square wave lead melody with hopeful determined phrases, square wave warm harmony and arpeggiated chords, triangle wave steady bass line, noise channel gentle rhythm, determined A-melo, hopeful B-melo, sincere chorus, pinky swear, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, scary, aggressive, comedic",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "climax",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, dramatic climax, D minor, 145 BPM, square wave lead melody with intense powerful phrases, square wave urgent harmony and fast arpeggiated chords, triangle wave driving bass line, noise channel intense percussion, urgent A-melo, rising B-melo, explosive climax section, anime dramatic peak, retro video game",
+      "negative_prompt": "vocals, realistic instruments, calm, slow, peaceful, ambient",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "horror",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, creepy horror atmosphere, E minor, 75 BPM, square wave lead melody with unsettling phrases, square wave dissonant harmony and arpeggiated chords, triangle wave low drone bass line, noise channel eerie rhythm, unsettling quiet A-melo, building dread B-melo, intense climax, dark and mysterious, retro video game",
+      "negative_prompt": "vocals, realistic instruments, cheerful, bright, happy, comedic",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "nightmare",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, nightmare scene, C minor, 80 BPM, square wave lead melody with distorted frantic phrases, square wave dissonant harmony and arpeggiated chords, triangle wave dark bass line, noise channel chaotic rhythm, frantic A-melo, claustrophobic B-melo, terrifying climax, horror anime, retro video game",
+      "negative_prompt": "vocals, realistic instruments, cheerful, bright, happy, calm",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "dream",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, surreal dream sequence, A major, 95 BPM, square wave lead melody with floating ethereal phrases, square wave dreamy harmony and arpeggiated chords, triangle wave drifting bass line, noise channel soft shimmer rhythm, floating A-melo, mysterious B-melo, wonder chorus, otherworldly, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, loud, harsh, fast",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "bathroom",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, relaxing bath scene, F-sharp major, 95 BPM, square wave lead melody with warm flowing phrases, square wave steamy harmony and arpeggiated chords, triangle wave smooth bass line, noise channel water-like rhythm, warm A-melo, intimate B-melo, calm chorus, steamy atmosphere, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, intense, dark",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "hot_spring",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, hot spring scene, G major, 92 BPM, square wave lead melody with pentatonic phrases, square wave traditional harmony and arpeggiated chords, triangle wave warm bass line, noise channel soft water rhythm, peaceful A-melo, serene B-melo, relaxed chorus, traditional Japanese, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, intense, urban",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "secret_time",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sneaky secret moment, A minor, 120 BPM, square wave lead melody with quick staccato sneaky phrases, square wave mischievous harmony and arpeggiated chords, triangle wave tiptoeing bass line, noise channel light stealthy rhythm, sneaky A-melo, playful B-melo, intimate chorus, retro video game",
+      "negative_prompt": "vocals, realistic instruments, loud, slow, ambient, calm",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "warm_skin",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, intimate warm moment, D-flat major, 96 BPM, square wave lead melody with very soft close phrases, square wave warm counter-melody and arpeggiated chords, triangle wave gentle breathing bass line, noise channel barely-there rhythm, tender A-melo, swelling B-melo, intimate chorus, romantic atmosphere, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "changing_room",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, flustered changing room, E major, 136 BPM, square wave lead melody with nervous quick phrases, square wave shy harmony and arpeggiated chords, triangle wave fidgety bass line, noise channel quick rhythm, nervous A-melo, flustered B-melo, cute chorus, embarrassed and awkward, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, scary, serious, intense",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "pajamas",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, cozy pajamas bedtime, C major, 90 BPM, square wave lead melody with soft sleepy phrases, square wave music box harmony and arpeggiated chords, triangle wave warm bass line, noise channel gentle rhythm, sleepy A-melo, warm B-melo, lullaby chorus, intimate and cozy, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, intense",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "home_alone",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, home alone atmosphere, F minor, 89 BPM, square wave lead melody with lonely quiet phrases, square wave sparse harmony and arpeggiated chords, triangle wave slow bass line, noise channel minimal rhythm, lonely A-melo, slightly eerie B-melo, quiet chorus, empty house, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, loud, fast, energetic",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "festival",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, Japanese summer festival, G major, 138 BPM, square wave lead melody with pentatonic festive phrases, square wave bright harmony and arpeggiated chords, triangle wave driving bass line, noise channel taiko-style percussion, festive A-melo, lively B-melo, joyful chorus, matsuri atmosphere, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, slow, sad, winter",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "fireworks",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, fireworks display, D major, 105 BPM, square wave lead melody with sparkling ascending phrases, square wave majestic harmony and arpeggiated chords, triangle wave swelling bass line, noise channel shimmering percussion, sparkling A-melo, swelling B-melo, majestic chorus, summer night sky, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, sad, aggressive, winter",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "beach",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sunny beach, A major, 135 BPM, square wave lead melody with bright refreshing phrases, square wave cheerful harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel upbeat percussion, refreshing A-melo, lively B-melo, tropical chorus, summer vacation, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, cold, winter, sad",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "pool",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, swimming pool fun, F major, 130 BPM, square wave lead melody with splashy playful phrases, square wave bright harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel splashy percussion, playful A-melo, energetic B-melo, refreshing chorus, summer fun, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, sad, slow, winter",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "game_center",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, arcade game center, C major, 145 BPM, square wave lead melody with electronic catchy phrases, square wave bouncy harmony and arpeggiated chords, triangle wave driving bass line, noise channel energetic percussion, catchy A-melo, exciting B-melo, competitive chorus, youth excitement, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, sad, slow, ambient",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "karaoke",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, karaoke room fun, G major, 138 BPM, square wave lead melody with pop catchy phrases, square wave bright harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel lively percussion, fun A-melo, lively B-melo, cheerful chorus, friends having fun, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, sad, slow, intense",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "christmas",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, Christmas atmosphere, C major, 100 BPM, square wave lead melody with gentle bell-like phrases, square wave warm harmony and arpeggiated chords, triangle wave warm bass line, noise channel soft jingle rhythm, warm A-melo, festive B-melo, cozy chorus, romantic winter evening, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, aggressive, fast, scary",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "valentine",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, Valentine romance, F major, 106 BPM, square wave lead melody with sweet tender phrases, square wave loving harmony and arpeggiated chords, triangle wave gentle bass line, noise channel soft rhythm, sweet A-melo, hopeful B-melo, loving chorus, chocolate and anticipation, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, aggressive, sad, scary",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "nostalgia",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, nostalgic reflection, E major, 86 BPM, square wave lead melody with slow wistful phrases, square wave warm harmony and arpeggiated chords, triangle wave gentle bass line, noise channel soft rhythm, wistful A-melo, bittersweet B-melo, warm resolution, looking back at memories, retro video game",
+      "negative_prompt": "vocals, realistic instruments, fast, energetic, aggressive",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "gratitude",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, gratitude thankfulness, B-flat major, 106 BPM, square wave lead melody with warm sincere phrases, square wave uplifting harmony and arpeggiated chords, triangle wave warm bass line, noise channel gentle rhythm, warm A-melo, uplifting B-melo, heartfelt chorus, emotional and uplifting, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, aggressive, fast, scary",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ending",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, emotional ending theme, C major, 110 BPM, square wave lead melody with bittersweet phrases, square wave warm harmony and arpeggiated chords, triangle wave gentle bass line, noise channel soft rhythm, bittersweet A-melo, emotional B-melo, warm resolution chorus, anime credits roll, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, dark",
+      "duration": 55,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "credits",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, credit roll theme, C major, 109 BPM, square wave lead melody with reflective warm phrases, square wave building harmony and arpeggiated chords, triangle wave steady bass line, noise channel gentle rhythm, reflective A-melo, building B-melo, satisfying chorus, warm resolution, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, dark, intense",
+      "duration": 60,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "lap_pillow",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, intimate lap pillow scene, D-flat major, 89 BPM, square wave lead melody with soft warm phrases, square wave gentle counter-melody and arpeggiated chords, triangle wave slow bass line, noise channel heartbeat rhythm, tender A-melo, warm B-melo, intimate chorus, lying on lap, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "back_hug",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, back hug surprise, E major, 99 BPM, square wave lead melody with surprising warm phrases, square wave swelling harmony and arpeggiated chords, triangle wave warm bass line, noise channel soft rhythm, surprising A-melo, tender B-melo, warm chorus, embrace from behind, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "massage",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, massage scene, G major, 85 BPM, square wave lead melody with slow relaxing phrases, square wave warm harmony and arpeggiated chords, triangle wave rhythmic bass line, noise channel soft pulse rhythm, relaxing A-melo, tension-releasing B-melo, warm chorus, intimate relaxation, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, intense",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "bath_together",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, bath together, F-sharp major, 93 BPM, square wave lead melody with warm slightly nervous phrases, square wave steamy harmony and arpeggiated chords, triangle wave smooth bass line, noise channel water-like rhythm, nervous A-melo, intimate B-melo, warm chorus, steamy atmosphere, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, intense, dark",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "night_visit",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, late night visit, A minor, 95 BPM, square wave lead melody with quiet sneaky phrases, square wave nervous harmony and arpeggiated chords, triangle wave tiptoeing bass line, noise channel stealthy rhythm, sneaky A-melo, nervous B-melo, tender chorus, nighttime anticipation, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, loud, fast, bright",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "morning_bed",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, waking up in same bed, C major, 86 BPM, square wave lead melody with sleepy confused phrases, square wave warm hazy harmony and arpeggiated chords, triangle wave slow bass line, noise channel barely-there rhythm, sleepy A-melo, confused B-melo, warm embarrassed chorus, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, intense",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "changing_help",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, helping change clothes, E major, 125 BPM, square wave lead melody with nervous fumbling phrases, square wave shy harmony and arpeggiated chords, triangle wave quick bass line, noise channel fidgety rhythm, nervous A-melo, flustered B-melo, embarrassed chorus, awkward intimate, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, scary, serious, calm",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "drunk_tipsy",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, slightly drunk tipsy, B-flat major, 110 BPM, square wave lead melody with wobbly unsteady phrases, square wave fuzzy harmony and arpeggiated chords, triangle wave loose bass line, noise channel unsteady rhythm, wobbly A-melo, fuzzy B-melo, playful loose chorus, dizzy and uninhibited, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, dark, scary, intense",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "tickle",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, tickling scene, G major, 145 BPM, square wave lead melody with fast laughing phrases, square wave playful harmony and arpeggiated chords, triangle wave bouncy bass line, noise channel energetic percussion, fast playful A-melo, squirming B-melo, laughing chorus, close body contact, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, sad, serious, slow",
+      "duration": 35,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "blindfold",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, blindfold scene, F minor, 92 BPM, square wave lead melody with mysterious anticipating phrases, square wave ethereal harmony and arpeggiated chords, triangle wave slow pulsing bass line, noise channel tense soft rhythm, mysterious A-melo, anticipating B-melo, heightened senses chorus, nervous excitement, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, bright, cheerful",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ambiguous",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, ambiguous atmosphere, B minor, 103 BPM, square wave lead melody with uncertain swaying phrases, square wave hesitant harmony and arpeggiated chords, triangle wave uncertain bass line, noise channel subtle rhythm, uncertain A-melo, tense B-melo, will-they-wont-they chorus, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, comedic",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "skinship",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, casual skinship, A-flat major, 96 BPM, square wave lead melody with warm comfortable phrases, square wave close harmony and arpeggiated chords, triangle wave warm bass line, noise channel gentle rhythm, warm A-melo, comfortable B-melo, natural closeness chorus, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "temptation",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, subtle temptation, E minor, 99 BPM, square wave lead melody with slow seductive phrases, square wave alluring harmony and arpeggiated chords, triangle wave sultry bass line, noise channel subtle rhythm, seductive A-melo, alluring B-melo, dangerous attraction chorus, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, loud, fast, cheerful",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "wet_hair",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, wet hair after bath, D major, 92 BPM, square wave lead melody with fresh intimate phrases, square wave warm harmony and arpeggiated chords, triangle wave gentle bass line, noise channel dripping rhythm, fresh A-melo, intimate B-melo, alluring chorus, close proximity, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "measurement",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, taking measurements, F major, 126 BPM, square wave lead melody with nervous measuring phrases, square wave shy harmony and arpeggiated chords, triangle wave quick bass line, noise channel fidgety rhythm, nervous A-melo, flustered B-melo, embarrassed chorus, tape measure closeness, retro video game",
+      "negative_prompt": "vocals, realistic instruments, dark, scary, serious, calm",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "sleep_together",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, sleeping together in same bed, G major, 80 BPM, square wave lead melody with very soft innocent phrases, square wave warm close harmony and arpeggiated chords, triangle wave breathing bass line, noise channel barely-there rhythm, innocent A-melo, nervous B-melo, comfortable chorus, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, intense",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "accidental_touch",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, accidental touch moment, C major to A minor, 105 BPM, square wave lead melody with sudden surprise phrases, square wave frozen harmony and arpeggiated chords, triangle wave stopped bass line, noise channel paused rhythm, surprising A-melo, frozen B-melo, lingering warm chorus, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, loud, dark, comedic",
+      "duration": 40,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "just_bathed",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, just out of bath, E-flat major, 96 BPM, square wave lead melody with fresh warm phrases, square wave steamy harmony and arpeggiated chords, triangle wave smooth bass line, noise channel soft dripping rhythm, fresh A-melo, alluring B-melo, warm chorus, towel and bare shoulders, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, dark",
+      "duration": 45,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "lap_pillow_awake",
+      "prompt": "TrackType: Music, VocalType: Instrumental. GBA-style chiptune, full 4-channel arrangement, lap pillow cannot sleep, B-flat major, 90 BPM, square wave lead melody with restless nervous phrases, square wave warm harmony and arpeggiated chords, triangle wave gentle bass line, noise channel heartbeat rhythm, restless A-melo, nervous B-melo, racing heart chorus, looking up at face, retro video game",
+      "negative_prompt": "vocals, realistic instruments, aggressive, fast, loud, intense",
+      "duration": 50,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    }
+  ],
+  "sfx": [
+    {
+      "name": "ui/text_advance",
+      "prompt": "TrackType: SFX. 8-bit UI click sound, single square wave tick, GBA style, soft blip, visual novel text advance, retro game menu select",
+      "negative_prompt": "music, realistic, long, ambient, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ui/cursor",
+      "prompt": "TrackType: SFX. 8-bit cursor move sound, quick square wave blip, GBA style, light tick, menu navigation, retro game",
+      "negative_prompt": "music, realistic, long, ambient, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ui/select",
+      "prompt": "TrackType: SFX. 8-bit menu confirm sound, two ascending square wave tones, GBA style, positive feedback, cheerful click, retro game",
+      "negative_prompt": "music, realistic, long, ambient, dark",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ui/cancel",
+      "prompt": "TrackType: SFX. 8-bit menu cancel sound, two descending square wave tones, GBA style, negative feedback, soft bounce, retro game",
+      "negative_prompt": "music, realistic, long, ambient, happy",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ui/save",
+      "prompt": "TrackType: SFX. 8-bit save game sound, three ascending cheerful square wave tones, GBA style, positive confirmation jingle, retro game",
+      "negative_prompt": "music, realistic, long, ambient, dark",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ui/transition",
+      "prompt": "TrackType: SFX. 8-bit screen transition, ascending square wave pitch sweep, GBA style, scene change effect, smooth whoosh, retro game",
+      "negative_prompt": "music, realistic, long, voice, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ui/flash",
+      "prompt": "TrackType: SFX. 8-bit screen flash sound, bright square wave burst, quick high-frequency sparkle, GBA style, visual emphasis effect, retro game",
+      "negative_prompt": "music, realistic, long, dark, ambient",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "ui/typewriter",
+      "prompt": "TrackType: SFX. 8-bit soft typewriter click, gentle square wave key press, GBA style, visual novel text display sound, repeated soft tick, retro game",
+      "negative_prompt": "music, realistic, long, ambient, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/heartbeat",
+      "prompt": "TrackType: SFX. 8-bit heartbeat sound, double low-frequency square wave thump pattern, GBA style, repeating pulse, tension and suspense, retro game",
+      "negative_prompt": "music, realistic, melody, ambient, harsh",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/gasp",
+      "prompt": "TrackType: SFX. 8-bit short gasp sound, quick square wave noise burst, GBA style, surprise reaction, brief startle, retro game",
+      "negative_prompt": "music, realistic, long, calm",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/rustle",
+      "prompt": "TrackType: SFX. 8-bit fabric rustling sound, brief soft noise channel, GBA style, clothing movement, short textured noise, retro game",
+      "negative_prompt": "music, realistic, long, loud",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/footstep_indoor",
+      "prompt": "TrackType: SFX. 8-bit indoor footsteps, three soft square wave clicks on wooden floor, GBA style, low impact, short, retro game",
+      "negative_prompt": "music, realistic, long, outdoor, loud",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/footstep_outdoor",
+      "prompt": "TrackType: SFX. 8-bit outdoor footsteps on gravel, crunching noise channel steps, GBA style, casual walking pace, retro game",
+      "negative_prompt": "music, realistic, long, indoor, loud",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/footstep_school",
+      "prompt": "TrackType: SFX. 8-bit school hallway footsteps, echoing square wave steps on hard floor, GBA style, running pace, retro game",
+      "negative_prompt": "music, realistic, long, outdoor, soft",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/laugh_girl",
+      "prompt": "TrackType: SFX. 8-bit cute girl laugh, soft high square wave giggling, cheerful and gentle, GBA style, anime style, brief, retro game",
+      "negative_prompt": "music, realistic, long, dark, harsh, male",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/sigh",
+      "prompt": "TrackType: SFX. 8-bit gentle sigh sound, soft descending triangle wave, GBA style, relief or contentment, brief breath, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/blush",
+      "prompt": "TrackType: SFX. 8-bit blush sound effect, soft warm square wave ping, gentle sparkle, GBA style, embarrassment indicator, cute, retro game",
+      "negative_prompt": "music, realistic, long, dark, harsh, loud",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/cry_soft",
+      "prompt": "TrackType: SFX. 8-bit soft crying sound, gentle descending sine wave sobbing, GBA style, tears falling, emotional and quiet, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, happy",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/yawn",
+      "prompt": "TrackType: SFX. 8-bit gentle yawn sound, sleepy soft ascending-descending sine wave, GBA style, drowsy, brief and cute, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/sneeze",
+      "prompt": "TrackType: SFX. 8-bit cute sneeze sound, small quick noise burst, GBA style, brief and adorable, anime style, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, male",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/stomach_growl",
+      "prompt": "TrackType: SFX. 8-bit stomach growling, low frequency triangle wave rumble, brief gurgle, GBA style, comedic hunger, retro game",
+      "negative_prompt": "music, realistic, long, harsh, loud",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/clear_throat",
+      "prompt": "TrackType: SFX. 8-bit gentle throat clearing, soft square wave ahem, GBA style, attention-getting, brief, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "character/breathing_soft",
+      "prompt": "TrackType: SFX. 8-bit soft breathing sound, gentle sine wave inhale and exhale, GBA style, calm and intimate, slow breathing, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, fast",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/door_open",
+      "prompt": "TrackType: SFX. 8-bit door opening sound, square wave creak and slide, GBA style, interior door, brief, retro game",
+      "negative_prompt": "music, realistic, long, outdoor",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/door_close",
+      "prompt": "TrackType: SFX. 8-bit door closing sound, square wave thud and click, GBA style, interior door shutting, brief impact, retro game",
+      "negative_prompt": "music, realistic, long, outdoor",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/chime",
+      "prompt": "TrackType: SFX. 8-bit doorbell chime, two pleasant high square wave tones, GBA style, visitor arrival, bright and clear, retro game",
+      "negative_prompt": "music, realistic, long, dark",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/phone_ring",
+      "prompt": "TrackType: SFX. 8-bit phone ringing, repeating two-tone square wave pattern, GBA style, retro phone notification, retro game",
+      "negative_prompt": "music, realistic, long, ambient",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/wind",
+      "prompt": "TrackType: SFX. 8-bit gentle wind sound, soft noise channel breeze, GBA style, outdoor atmosphere, looping, retro game",
+      "negative_prompt": "music, realistic, loud, impact",
+      "duration": 5,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/rain",
+      "prompt": "TrackType: SFX. 8-bit rain sound, gentle noise channel pattern, GBA style, steady rainfall atmosphere, retro game",
+      "negative_prompt": "music, realistic, loud, impact",
+      "duration": 5,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/thunder",
+      "prompt": "TrackType: SFX. 8-bit distant thunder rumble, low triangle wave boom, GBA style, storm atmosphere, brief but dramatic, retro game",
+      "negative_prompt": "music, realistic, long, constant, harsh",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/birds",
+      "prompt": "TrackType: SFX. 8-bit morning birds chirping, cheerful high square wave bird songs, GBA style, outdoor nature atmosphere, retro game",
+      "negative_prompt": "music, realistic, loud, harsh, urban",
+      "duration": 4,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/crickets",
+      "prompt": "TrackType: SFX. 8-bit night crickets, rhythmic high square wave chirping, GBA style, summer evening atmosphere, retro game",
+      "negative_prompt": "music, realistic, loud, harsh, urban",
+      "duration": 4,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/clock_tick",
+      "prompt": "TrackType: SFX. 8-bit clock ticking sound, rhythmic square wave tick-tock, GBA style, quiet room atmosphere, time passing, retro game",
+      "negative_prompt": "music, realistic, loud, harsh, erratic",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/alarm_clock",
+      "prompt": "TrackType: SFX. 8-bit alarm clock ringing, persistent square wave beeping, GBA style, morning wake-up call, retro game",
+      "negative_prompt": "music, realistic, long, gentle, calm",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/school_bell",
+      "prompt": "TrackType: SFX. 8-bit school bell ringing, clear square wave metallic tone, GBA style, class change, brief and resonant, retro game",
+      "negative_prompt": "music, realistic, long, dark, harsh",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/train_arrive",
+      "prompt": "TrackType: SFX. 8-bit train arriving, low triangle wave rumble approaching, GBA style, platform atmosphere, retro game",
+      "negative_prompt": "music, realistic, long, indoor, gentle",
+      "duration": 4,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/train_depart",
+      "prompt": "TrackType: SFX. 8-bit train departing, accelerating square wave rhythm, GBA style, fading into distance, retro game",
+      "negative_prompt": "music, realistic, long, indoor, gentle",
+      "duration": 4,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/splash",
+      "prompt": "TrackType: SFX. 8-bit water splash, quick noise channel burst, GBA style, playful pool or bath, brief and bright, retro game",
+      "negative_prompt": "music, realistic, long, dark, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/bathwater",
+      "prompt": "TrackType: SFX. 8-bit bathwater sound, gentle noise channel sloshing, GBA style, warm and relaxing, water movement, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/fireworks_boom",
+      "prompt": "TrackType: SFX. 8-bit firework explosion, square wave boom with high sparkle, GBA style, summer festival, brief and festive, retro game",
+      "negative_prompt": "music, realistic, long, constant, indoor",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/festival_bell",
+      "prompt": "TrackType: SFX. 8-bit festival bell ringing, bright square wave metallic tone, GBA style, traditional Japanese, matsuri atmosphere, retro game",
+      "negative_prompt": "music, realistic, long, dark, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/snow_footstep",
+      "prompt": "TrackType: SFX. 8-bit footsteps in snow, soft noise channel crunching steps, GBA style, winter atmosphere, gentle and muffled, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, indoor",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "environment/cicada",
+      "prompt": "TrackType: SFX. 8-bit summer cicada buzzing, rhythmic square wave insect sound, GBA style, hot afternoon atmosphere, retro game",
+      "negative_prompt": "music, realistic, long, indoor, harsh",
+      "duration": 4,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/success",
+      "prompt": "TrackType: SFX. 8-bit success jingle, four ascending cheerful square wave notes, GBA style, positive reward fanfare, retro game",
+      "negative_prompt": "music, realistic, long, dark, sad",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/failure",
+      "prompt": "TrackType: SFX. 8-bit failure jingle, four descending sad square wave notes, GBA style, negative outcome, retro game",
+      "negative_prompt": "music, realistic, long, happy, cheerful",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/sweet_success",
+      "prompt": "TrackType: SFX. 8-bit sweet success jingle, five gentle ascending sine wave notes with warm tone, GBA style, romantic achievement, retro game",
+      "negative_prompt": "music, realistic, long, dark, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/ominous",
+      "prompt": "TrackType: SFX. 8-bit ominous jingle, unsettling descending square wave tones, GBA style, suspense and foreboding, retro game",
+      "negative_prompt": "music, realistic, long, happy, cheerful",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/discovery",
+      "prompt": "TrackType: SFX. 8-bit discovery jingle, fast ascending square wave notes, GBA style, finding something important, exciting reveal, retro game",
+      "negative_prompt": "music, realistic, long, slow, sad",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/curtain_open",
+      "prompt": "TrackType: SFX. 8-bit curtain opening, four ascending triangle wave tones, GBA style, scene begin, retro game",
+      "negative_prompt": "music, realistic, long, dark",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/curtain_close",
+      "prompt": "TrackType: SFX. 8-bit curtain closing, four descending triangle wave tones, GBA style, scene end, retro game",
+      "negative_prompt": "music, realistic, long, happy",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/love_up",
+      "prompt": "TrackType: SFX. 8-bit love meter increase jingle, sparkling ascending square wave notes, GBA style, affection rising, warm and sweet, retro game",
+      "negative_prompt": "music, realistic, long, dark, harsh, sad",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/morning",
+      "prompt": "TrackType: SFX. 8-bit morning wake-up jingle, bright cheerful ascending square wave notes, GBA style, new day beginning, retro game",
+      "negative_prompt": "music, realistic, long, dark, sad, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/night",
+      "prompt": "TrackType: SFX. 8-bit night time jingle, gentle descending sine wave notes, GBA style, day ending, peaceful and calm, sleepy, retro game",
+      "negative_prompt": "music, realistic, long, bright, energetic, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "jingle/achievement",
+      "prompt": "TrackType: SFX. 8-bit achievement unlock jingle, triumphant short square wave fanfare, GBA style, accomplishment, bright and rewarding, retro game",
+      "negative_prompt": "music, realistic, long, dark, sad, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/soft_tap",
+      "prompt": "TrackType: SFX. 8-bit soft tap on shoulder, gentle square wave click, brief and intimate, GBA style, skin contact, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/hand_hold",
+      "prompt": "TrackType: SFX. 8-bit hand holding sound, gentle soft square wave grasp, warm and tender, brief intimate moment, GBA style, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/hug",
+      "prompt": "TrackType: SFX. 8-bit hug sound effect, soft square wave embrace, noise channel fabric rustle with gentle impact, GBA style, warm and close, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, aggressive",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/head_pat",
+      "prompt": "TrackType: SFX. 8-bit head pat sound, gentle repetitive soft square wave pats, warm and affectionate, GBA style, anime style, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, aggressive",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/kiss_cheek",
+      "prompt": "TrackType: SFX. 8-bit cheek kiss sound, soft quick noise channel pop, gentle affection, brief and sweet, GBA style, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/tuck_in",
+      "prompt": "TrackType: SFX. 8-bit tucking into bed, noise channel blanket adjustment, soft fabric rustle, GBA style, gentle and caring, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/hair_stroke",
+      "prompt": "TrackType: SFX. 8-bit hair stroking sound, gentle repeated soft noise channel brushing, tender and intimate, quiet, GBA style, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "touch/forehead_touch",
+      "prompt": "TrackType: SFX. 8-bit forehead touch sound, soft intimate square wave contact, warm and tender, gentle thud, GBA style, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, aggressive",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/breathing_heavy",
+      "prompt": "TrackType: SFX. 8-bit slightly heavy breathing, soft quick sine wave inhale exhale pattern, GBA style, nervous or excited, close intimate atmosphere, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/clothes_slip",
+      "prompt": "TrackType: SFX. 8-bit clothing slipping off sound, soft sliding noise channel, brief gentle rustle, GBA style, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/button",
+      "prompt": "TrackType: SFX. 8-bit button unfastening sound, small soft square wave click, GBA style, brief nervous, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/fabric_slide",
+      "prompt": "TrackType: SFX. 8-bit fabric sliding on skin, soft smooth noise channel sweep, GBA style, brief gentle, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, aggressive",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/towel_drop",
+      "prompt": "TrackType: SFX. 8-bit towel dropping sound, soft noise channel flutter and gentle thud, GBA style, brief, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/wet_hair_drip",
+      "prompt": "TrackType: SFX. 8-bit wet hair dripping, soft sine water drops, repeating gentle plop, GBA style, bathroom atmosphere, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/back_wash",
+      "prompt": "TrackType: SFX. 8-bit back washing sound, gentle noise channel scrubbing, soft water sine wave, GBA style, intimate bath scene, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, aggressive",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/skin_touch",
+      "prompt": "TrackType: SFX. 8-bit skin touching skin, very soft warm square wave brush, brief intimate contact, GBA style, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/bed_creak",
+      "prompt": "TrackType: SFX. 8-bit bed creaking sound, soft low triangle wave groan, brief gentle squeak, GBA style, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh, aggressive",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/blanket_rustle",
+      "prompt": "TrackType: SFX. 8-bit blanket rustling under covers, soft warm noise channel, shared blanket movement, GBA style, intimate, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 2,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/soft_gasp",
+      "prompt": "TrackType: SFX. 8-bit soft small gasp, quick gentle sine wave breath, surprised reaction, GBA style, close intimate moment, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/heartbeat_fast",
+      "prompt": "TrackType: SFX. 8-bit fast heartbeat, rapid double square wave thump pattern, GBA style, racing pulse, nervous excitement, retro game",
+      "negative_prompt": "music, realistic, melody, long, harsh",
+      "duration": 3,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/ear_whisper",
+      "prompt": "TrackType: SFX. 8-bit whisper in ear sound, soft close sine wave breath, brief and intimate, GBA style, ticklish feeling, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/hair_tie_remove",
+      "prompt": "TrackType: SFX. 8-bit hair tie removal, small soft square wave snap, hair falling loose, GBA style, brief, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    },
+    {
+      "name": "intimate/glasses_remove",
+      "prompt": "TrackType: SFX. 8-bit glasses removal sound, gentle square wave click, brief subtle, GBA style, intimate reveal moment, retro game",
+      "negative_prompt": "music, realistic, long, loud, harsh",
+      "duration": 1,
+      "model": "medium",
+      "steps": 8,
+      "cfg_scale": 1.0,
+      "seed": -1
+    }
+  ]
+}

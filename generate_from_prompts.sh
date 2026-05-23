@@ -16,8 +16,8 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 APP_DIR="${SCRIPT_DIR}/app"
 VENV_PYTHON="${APP_DIR}/.venv-gen/bin/python"
-PROMPTS_FILE="${SCRIPT_DIR}/data/input/orusuban2.json"
-OUTPUT_DIR="${SCRIPT_DIR}/data/output/orusuban7"
+PROMPTS_FILE="${SCRIPT_DIR}/data/input/orusuban_v1.json"
+OUTPUT_DIR="${SCRIPT_DIR}/data/output/orusuban_v1"
 API_BASE="http://127.0.0.1:7860"
 
 # ── 引数パース ────────────────────────────────────
@@ -212,13 +212,15 @@ def generate_one(category, item):
             wav_path = result
 
         if wav_path and os.path.exists(wav_path):
+            lufs = "I=-16" if category == "bgm" else "I=-14"
             subprocess.run([
                 "ffmpeg", "-y", "-i", wav_path,
+                "-af", f"loudnorm={lufs}:LRA=11:TP=-1.5:linear=true",
                 "-c:a", "libvorbis", "-q:a", "3",
                 "-ar", "22050", "-ac", "1",
                 out_file
             ], capture_output=True, check=True)
-            print(f"  -> {out_file}")
+            print(f"  -> {out_file} ({lufs} LUFS)")
         else:
             print(f"  エラー: 生成結果が見つかりません")
     except Exception as e:
